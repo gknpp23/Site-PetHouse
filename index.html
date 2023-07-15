@@ -1,35 +1,42 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/style.css">
     <title>PetHouse</title>
 </head>
+
 <body>
+    <header class="header">
 
-    <header>
+        <figure class="logo">
 
-        <figure>
-            <a href="./index.html">
-                <img src="./assets/images/logo.svg" alt="Logotipo PetHouse" width="80">
-                <p>PetHouse</p>
+            <a href="./index.html" class="logo__link">
+
+                <img src="./assets/images/logo.svg" alt="Logotipo PetHouse" width="80" class="logo__image">
+
+                <p class="logo__text">PetHouse</p>
+                
             </a>
-            
+
         </figure>
 
-        <nav>
-            <ul>
+        <nav class="header__menu">
 
-                <li> 
+            <ul class="menu__list">
+
+                <li class="menu__list__item"> 
                     <a href="./services.html">Serviços</a>                    
                 </li>
 
-                <li>
+                <li class="menu__list__item">
                     <a href="./aboutUs.html">Sobre nós</a>
                 </li>
 
-                <li>
+                <li class="menu__list__item"> 
                     <a href="./contact.html">Contato</a>
                 </li>
             </ul>
@@ -39,91 +46,114 @@
     </header>
     
     <main>
-        <section>
+        <section class="m-hero">
+            <div>
+                <h1 class="m-hero__slogan">
+                    A segunda casa do seu Pet!
+                </h1>
+            </div>
+            
 
-            <h1>
-                A segunda casa do seu Pet!
-            </h1>
+            <div class="m-hero__figure">
 
-            <figure>
+                <img src="./assets/images/cachorro-principal.png" alt="Cachorro dando a patinha" class="m-hero__figure__image">
 
-                <img src="./assets/images/cachorro-principal.png" alt="Cachorro dando a patinha" width="1215">
-            </figure>
+            </div>
 
         </section>
 
-        <section>
+        <section class="sub-pg-hero">
 
-            <figure>
-                <img src="./assets/images/logo.svg" alt="Logotipo PetHouse" width="653">
+            <figure class="sub-pg-hero__figure">
+
+                <img src="./assets/images/logo.svg" alt="Logotipo PetHouse" class="sub-pg-hero__figure__image">
+
             </figure>
 
-            <p>
+            <p class="sub-pg-hero__text">
                 Onde seu pet é tratado como família!
             </p>
 
         </section>
 
-        <section>
+        <section class="bd-content">
 
-            <figure>
-                <img src="./assets/images/icone-Mulher-com-cachorro.svg" alt="Ilustração de uma jovem segurando um cachorro" width="385">
+            <figure class="bd-content__figure">
+
+                <img src="./assets/images/icone-Mulher-com-cachorro.svg" alt="Ilustração de uma jovem segurando um cachorro" width="385" class="bd-content__figure__image">
+
             </figure>
 
-            <article>
+            <article class="bd-content__sub-service">
 
-                <h2>
+                <h2 class="bd-content__sub-service__title">
                     Serviços exclusivos para o Bem-estar do seu amiguinho!
                 </h2>
 
-                <p>
+                <p class="bd-content__sub-service__text">
                     Nossa marca é sinônimo de excelência e dedicação em cuidar dos animais de estimação, proporcionando uma experiência única e inesquecível para cada cliente peludo que passa por nossas portas
                 </p>
+
                 <img src="./assets/images/ICON-PAWN.svg" alt="Icone de pata">
-                <ul>
-                    <li>
+
+                <ul class="bd-content__sub-service__list">
+
+                    <li class="bd-content__sub-service__list__item">
                         Rações Premium: Nutrição de Excelência para seu Pet na Pet House
                     </li>
 
-                    <li>
+                    <li class="bd-content__sub-service__list__item">
                         Acessórios Incríveis: Encontre tudo o que seu Pet precisa na Pet House!
                     </li>
 
-                    <li>
+                    <li class="bd-content__sub-service__list__item">
                         Banho e Tosa Profissionais: Deixe seu Pet ainda mais bonito e saudável na Pet House!
                     </li>
+
                 </ul>
+
+                <a href="./services.html" class="bd-content__sub-service__btn">Veja mais</a>
 
             </article>
         </section>
 
-        <section>
+        <section class="bd-sub">
 
-            <h2>Confira nossos trabalhos</h2>
-            <p>
+            <h2 class="bd-sub__title">Confira nossos trabalhos</h2>
+
+            <p class="bd-sub__text">
                 Qualidade que faz a diferença: na Pet House, oferecemos serviços de excelência, onde o cuidado, a atenção e a expertise se encontram para proporcionar uma experiência única ao seu pet.   
             </p>
 
-            <section>
-                <article>
+            <section class="bd-sub__preview">
 
-                    <figure>
-                        <img src="./assets/images/FOTO-TOSA.jpg" alt="foto cachorro Tosa">
+                <article class="bd-sub__preview__serv">
+
+                    <figure class="bd-sub__preview__serv__figure">
+
+                        <img src="./assets/images/FOTO-TOSA.jpg" alt="foto cachorro Tosa" class="bd-sub__preview__image">
+
                     </figure>
-                    <h3>Tosas</h3>
-                    <p>
+
+                    <h3 class="bd-sub__preview__serv__title">Tosas</h3>
+
+                    <p class="bd-sub__preview__serv__text">
                         Transforme a aparência do seu pet com tosas de qualidade, realizadas por profissionais experientes e apaixonados, que cuidam com carinho e habilidade para deixar seu amiguinho ainda mais bonito.
                     </p>
 
                 </article>
 
-                <article>
+                <article class="bd-sub__preview__serv">
 
-                    <figure>
-                        <img src="./assets/images/FOTO-BANHO.png" alt="foto cachorro banho">
+                    <figure class="bd-sub__preview__serv__figure">
+
+                        <img src="./assets/images/FOTO-BANHO.png" alt="foto cachorro banho" class="bd-sub__preview__image">
+
                     </figure>
-                    <h3>Banhos</h3>
-                    <p>
+
+                    <h3 class="bd-sub__preview__serv__title">Banhos</h3>
+
+                    <p class="bd-sub__preview__serv__text">
                         Nossos profissionais especializados e produtos de alta qualidade garantem que seu amiguinho receba um banho cuidadoso, relaxante e revigorante.
                     </p>
                     
@@ -132,82 +162,126 @@
             </section>
         </section>
 
-        <section>
-            <h2>
+        <section class="bd-brands">
+
+            <h2 class="bd-brands__title">
                 Marca que trabalhamos
             </h2>
-            <p>
+
+            <p class="bd-brands__text">
                 Trabalhamos apenas com as melhores marcas de rações para garantir a nutrição excepcional do seu pet. Confie em nós para oferecer ao seu amiguinho sabores e qualidade incomparáveis!
             </p>
+
+            <section class="bd-brands__figures">
+
+                <figure  class="bd-brands__figure">
+
+                    <img src="./assets/images/QUATREE-01.png" alt="Quatree-GM" class="bd-brands__figures__image">
+
+                </figure>
+    
+                <figure class="bd-brands__figure">
+
+                    <img src="./assets/images/QUATREE-02.png" alt="Quatree-LF-GT" class="bd-brands__figures__image">
+
+                </figure>
+    
+                <figure class="bd-brands__figure">
+
+                    <img src="./assets/images/QUATREE-03.png" alt="Quatree-SP-GT" class="bd-brands__figures__image">
+
+                </figure>
+    
+                <figure class="bd-brands__figure">
+
+                    <img src="./assets/images/QUATREE-04.png" alt="Quatree-GM-GT" class="bd-brands__figures__image">
+
+                </figure>
+    
+                <figure class="bd-brands__figure">
+
+                    <img src="./assets/images/QUATREE-05.png" alt="Quatree-LF" class="bd-brands__figures__image">
+
+                </figure>
+    
+                <figure class="bd-brands__figure">
+
+                    <img src="./assets/images/QUATREE-06.png" alt="Quatree-SP" class="bd-brands__figures__image">
+
+                </figure>
+    
+            </section>
+
         </section>
 
-        <section>
-            <figure>
-                <img src="./assets/images/QUATREE-01.png" alt="Quatree-GM">
-            </figure>
-
-            <figure>
-                <img src="./assets/images/QUATREE-02.png" alt="Quatree-LF-GT">
-            </figure>
-
-            <figure>
-                <img src="./assets/images/QUATREE-03.png" alt="Quatree-SP-GT">
-            </figure>
-
-            <figure>
-                <img src="./assets/images/QUATREE-04.png" alt="Quatree-GM-GT">
-            </figure>
-
-            <figure>
-                <img src="./assets/images/QUATREE-05.png" alt="Quatree-LF">
-            </figure>
-
-            <figure>
-                <img src="./assets/images/QUATREE-06.png" alt="Quatree-SP">
-            </figure>
-
-        </section>
+        
     </main>
 
     <footer>
-        <section>
-            <figure>
-                <img src="./assets/images/logo.svg" alt="Logo petHouse">
+
+        <section class="logo-footer">
+
+            <figure class="logo">
+
+                <img src="./assets/images/logo.svg" alt="Logo petHouse" class="logo__image">
+
             </figure>
-            <p>PetHouse</p>
+
+            <p class="logo-footer__text">PetHouse</p>
+
         </section>
 
-        <section>
-            <h3>© Pet House. 2023 We love our users!</h3>
-            <article>
-                <ul>
-                    <li>
-                        <a href="https://www.instagram.com/opethousee/">
-                            <img src="./assets/images/ICON-3.svg" alt="Instagram">
+        <section class="inf-line">
+
+            <h3 class="inf-line__text">© Pet House. 2023 We love our users!</h3>
+
+            <article class="social">
+
+                <ul class="social__list">
+
+                    <li class="social__list__item">
+
+                        <a href="https://www.instagram.com/opethousee/" class="social__list__item__link">
+
+                            <img src="./assets/images/ICON-3.svg" alt="Instagram" class="social__list__item__icon">
+
                         </a>
                         
                     </li>
-                    <li>
-                        <a href="https://www.facebook.com/dolittlepethouse/">
-                            <img src="./assets/images/ICON-1.svg" alt="Facebook">
+
+                    <li class="social__list__item">
+
+                        <a href="https://www.facebook.com/dolittlepethouse/" class="social__list__item__link">
+
+                            <img src="./assets/images/ICON-1.svg" alt="Facebook" class="social__list__item__icon">
                         </a>
                         
                     </li>
-                    <li>
-                        <a href="https://api.whatsapp.com/message/AAB6G4BRVOVSL1?autoload=1&app_absent=0">
-                            <img src="./assets/images/ICON-4.svg" alt="WhatsApp">
+
+                    <li class="social__list__item">
+
+                        <a href="https://api.whatsapp.com/message/AAB6G4BRVOVSL1?autoload=1&app_absent=0" class="social__list__item__link">
+
+                            <img src="./assets/images/ICON-4.svg" alt="WhatsApp" class="social__list__item__icon">
+
                         </a>
                         
                     </li>
-                    <li>
-                        <a href="">
-                            <img src="./assets/images/ICON-2.svg" alt="Gmail">
+
+                    <li class="social__list__item">
+
+                        <a href="" class="social__list__item__link">
+                            <img src="./assets/images/ICON-2.svg" alt="Gmail" class="social__list__item__icon">
                         </a>
                         
                     </li>
+
                 </ul>
+
             </article>
+
         </section>
+
     </footer>
 </body>
 </html>

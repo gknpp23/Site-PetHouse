@@ -1,1 +1,109 @@
 @import url(reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+/* seguir Metologia BEM */
+
+body{
+    background-color: #FFD54F;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: #253239;
+    
+ }
+.menu__list{
+    display: flex;
+    gap: 24px;
+    color: #FFF;
+    padding: 24px;
+    
+}
+.menu__list__item a{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    color: #FFD54F;
+}
+.logo__link{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.logo__text{
+    font-family: 'Atma', cursive;
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.m-hero{
+    height: 800px;
+    background-color: #FAD046;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.m-hero__slogan{
+    text-transform: uppercase;
+    font-family: 'Atma', cursive;
+    font-weight: 900;
+    font-size: 3.75rem;
+    line-height: 1.75em;
+    color: #253239
+}
+
+.m-hero div{
+    width: 50vw;
+    padding: 64px;
+    
+}
+
+.m-hero__figure{
+    height: 100%;
+    position: relative;
+    background-color: #352d1333;
+    
+}
+
+.m-hero__figure__image{
+    position: absolute;
+    margin-top: -68px;
+    right:12%;
+    width: 47vw;
+  
+}
+
+.sub-pg-hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+    background-color:#253239;
+}
+.sub-pg-hero__figure{
+
+}
+
+.sub-pg-hero__figure__image{
+    width: 40vw;
+    padding: 0px 16px;
+    
+}
+
+.sub-pg-hero__text{
+    margin-right: 10%;
+    width: 40vw;
+    line-height: 4rem;
+    color: #FBF3DF;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    padding: 32px;
+}
