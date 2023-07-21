@@ -10,7 +10,7 @@
 /* seguir Metologia BEM */
 
 body{
-    background-color: #FFD54F;
+    background-color:#253239;
 }
 .header{
     display: flex;
@@ -88,9 +88,9 @@ body{
     height: 500px;
     background-color:#253239;
 }
-.sub-pg-hero__figure{
+/* .sub-pg-hero__figure{
 
-}
+} */
 
 .sub-pg-hero__figure__image{
     width: 40vw;
@@ -107,3 +107,186 @@ body{
     font-size: 40px;
     padding: 32px;
 }
+
+
+.bd-content{
+    
+    width: 100%;
+    height: 60%;
+    display: flex;
+    background-color: #FBF3DF;
+}
+
+.bd-content__figure{
+
+    width: 40vw;
+    background-color: #f87608cc;
+    padding: 1rem 10rem;
+}
+
+.bd-content__sub-service{
+    
+    width: 50vw;
+    margin:auto;
+    padding-top:32px;
+    padding-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.bd-content__sub-service__title{
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    color: #263239;
+    line-height: 2.25rem;
+}
+
+.bd-content__sub-service__text{
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #263239;
+    line-height: 2rem;
+}
+
+.bd-content__sub-service__list{
+    list-style-image: url(../images/ICON-PAWN.svg);
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    
+}
+
+.bd-content__sub-service__list__item{
+    
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    color: #263239;
+    
+}
+
+.bd-content__sub-service__btn{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    color: #FFF;
+    background-color: #F87608;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    border-radius: 6px;
+}
+
+.bd-sub{
+
+    margin-top: 24px;
+    padding: 5rem 0 5rem 0;
+    background: linear-gradient( #FAD046,#F87608);
+    display: flex;
+    flex-direction: column;
+    gap:72px;
+}
+
+.bd-sub__title{
+
+    margin-left: 3.25rem;
+    font-family: 'Atma', cursive;
+    color: #263239;
+    font-size: 3.25rem;
+    font-weight: 900;
+}
+
+.bd-sub__text{
+
+    margin: auto;
+    width: 93vw;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.75rem;
+    color: #263239;
+}
+
+.bd-sub__preview{
+    
+    margin: auto;
+    display: flex;  
+    gap:24px;
+}
+
+.bd-sub__preview__serv{
+
+    width: 640px;
+    height: 655px;
+
+    background-color: #253235;
+    color: #FBF3DF;
+    border-radius: 20px;
+}
+
+.bd-sub__preview__image{
+    width: 100%;
+    height: 400px;
+    border-radius: 20px 20px 0 0;
+    border: #253239 solid 2px;
+}
+.bd-sub__preview__serv__title{
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 1.95rem  1.95rem 0 1.95rem;
+}
+.bd-sub__preview__serv__text{
+
+    font-family: 'Josefin Sans', sans-serif;
+    width: 640px;
+    font-size: 24px;
+    padding: 1.75rem;
+
+}
+
+.bd-brands{
+
+    padding: 5rem 0 5rem 0;
+    background-color: #FBF3DF;
+    margin-top: 24px;
+}
+
+.bd-brands__title{
+    
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    color:#263239;
+    text-align: center;
+}
+
+.bd-brands__text{
+    margin-top: 32px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    color:#263239;
+    padding: 1rem;
+    width: 1392px;
+    line-height: 56px;
+    text-align: center;
+ 
+}
+
+.bd-brands__figures{
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:80px;
+    width: 90.25vw;
+}
+
+footer{
+    height: 400px;
+}
+
+.
