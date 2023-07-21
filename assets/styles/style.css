@@ -286,7 +286,46 @@ body{
 }
 
 footer{
-    height: 400px;
+
+    height: 40vh;
 }
 
-.
+.logo-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem auto;
+    width: 20vw;
+}
+
+.logo-footer .logo__image{
+    width: 12rem;  
+}
+
+.logo-footer__text{
+    font-family: 'Atma', cursive;
+    font-weight: 900;
+    font-size: 32px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.inf-line, .social__list{
+    display: flex;
+    align-items: center;
+}
+
+.inf-line{
+    
+    color: #FBF3DF;
+    border-top: #00000080 4px solid;
+    justify-content: space-between;
+    padding: 3rem 3rem 1rem 3rem;
+}
+.inf-line__text{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.social__list{
+    gap: 16px;
+}
