@@ -16,9 +16,13 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 16px;
-    background-color: #253239;
+    background-color: rgba(37, 50, 57,0.9);
+    border-bottom: #F87608 2px solid;
     
  }
+main {
+    margin-top: 7rem;
+}
 .menu__list{
     display: flex;
     gap: 24px;
