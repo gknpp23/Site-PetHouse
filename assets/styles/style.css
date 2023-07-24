@@ -10,19 +10,17 @@
 /* seguir Metologia BEM */
 
 body{
-    background-color:#253239;
+    background-color:#1a2227;
 }
 .header{
+
     display: flex;
     justify-content: space-between;
     padding: 16px;
-    background-color: rgba(37, 50, 57,0.9);
-    border-bottom: #F87608 2px solid;
-    
+    background-color: #253239; 
+
  }
-main {
-    margin-top: 7rem;
-}
+
 .menu__list{
     display: flex;
     gap: 24px;
@@ -48,6 +46,7 @@ main {
 }
 
 .m-hero{
+    padding: 0;
     height: 800px;
     background-color: #FAD046;
     display: flex;
@@ -79,7 +78,7 @@ main {
 
 .m-hero__figure__image{
     position: absolute;
-    margin-top: -68px;
+    margin-top: -64px;
     right:12%;
     width: 47vw;
   
