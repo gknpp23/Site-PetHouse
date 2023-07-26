@@ -1,5 +1,3 @@
-@import url(reset.css);
-
 @import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap');
 
 
@@ -7,76 +5,70 @@
 
 
 
-/* seguir Metologia BEM */
+/* Seguir Metologia BEM */
 
 body{
-    background-color:#1a2227;
+    background-color: #253239;
 }
 .header{
 
-    display: flex;
-    justify-content: space-between;
-    padding: 16px;
     background-color: #253239; 
 
  }
 
 .menu__list{
-    display: flex;
-    gap: 24px;
-    color: #FFF;
-    padding: 24px;
-    
+
+    color: #FFF;    
 }
+
 .menu__list__item a{
+
     font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
     color: #FFD54F;
 }
-.logo__link{
-    display: flex;
-    gap: 8px;
-    align-items: center;
-}
+
 .logo__text{
+
     font-family: 'Atma', cursive;
     color: #FFF;
-    font-size: 1.5rem;
-    font-weight: 900;
+
 }
 
+/* Seção de apresentação */
+
 .m-hero{
-    padding: 0;
+
     height: 800px;
     background-color: #FAD046;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
 }
 
 .m-hero__slogan{
-    text-transform: uppercase;
+
     font-family: 'Atma', cursive;
-    font-weight: 900;
     font-size: 3.75rem;
     line-height: 1.75em;
+
     color: #253239
 }
 
 .m-hero div{
+
     width: 50vw;
     padding: 64px;
     
 }
 
 .m-hero__figure{
+
     height: 100%;
-    position: relative;
     background-color: #352d1333;
     
 }
 
 .m-hero__figure__image{
+
     position: absolute;
     margin-top: -64px;
     right:12%;
@@ -84,39 +76,36 @@ body{
   
 }
 
+/* Sub-página de apresentação */
+
 .sub-pg-hero{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+
     height: 500px;
     background-color:#253239;
 }
-/* .sub-pg-hero__figure{
-
-} */
 
 .sub-pg-hero__figure__image{
+
     width: 40vw;
-    padding: 0px 16px;
     
 }
 
 .sub-pg-hero__text{
-    margin-right: 10%;
+
     width: 40vw;
     line-height: 4rem;
     color: #FBF3DF;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 40px;
-    padding: 32px;
+
 }
 
+/* Conteúdo principal */
 
 .bd-content{
-    
+ 
     width: 100%;
     height: 60%;
-    display: flex;
+
     background-color: #FBF3DF;
 }
 
@@ -130,94 +119,76 @@ body{
 .bd-content__sub-service{
     
     width: 50vw;
-    margin:auto;
-    padding-top:32px;
-    padding-bottom: 32px;
-    display: flex;
-    flex-direction: column;
-    gap: 64px;
+
 }
 
 .bd-content__sub-service__title{
 
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 32px;
-    font-weight: 900;
-    color: #263239;
     line-height: 2.25rem;
+    color: #263239;
 }
 
 .bd-content__sub-service__text{
 
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 24px;
-    color: #263239;
     line-height: 2rem;
+    color: #263239;
+    
 }
 
 .bd-content__sub-service__list{
+
     list-style-image: url(../images/ICON-PAWN.svg);
     list-style-position: inside;
+
     display: flex;
     flex-direction: column;
-    gap: 48px;
     
 }
 
 .bd-content__sub-service__list__item{
     
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 16px;
     color: #263239;
     
 }
 
 .bd-content__sub-service__btn{
+
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 16px;
     color: #FFF;
     background-color: #F87608;
-    padding: 1rem;
     width: 200px;
-    text-align: center;
-    margin: auto;
-    border-radius: 6px;
+
 }
+
+
+/* Sub-página do conteudo principal - Serviços */
 
 .bd-sub{
 
-    margin-top: 24px;
     padding: 5rem 0 5rem 0;
     background: linear-gradient( #FAD046,#F87608);
-    display: flex;
-    flex-direction: column;
     gap:72px;
 }
 
 .bd-sub__title{
 
-    margin-left: 3.25rem;
     font-family: 'Atma', cursive;
     color: #263239;
     font-size: 3.25rem;
-    font-weight: 900;
+
 }
 
 .bd-sub__text{
 
-    margin: auto;
     width: 93vw;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.75rem;
     color: #263239;
 }
 
-.bd-sub__preview{
-    
-    margin: auto;
-    display: flex;  
-    gap:24px;
-}
 
 .bd-sub__preview__serv{
 
@@ -226,78 +197,73 @@ body{
 
     background-color: #253235;
     color: #FBF3DF;
-    border-radius: 20px;
+
 }
 
 .bd-sub__preview__image{
+
     width: 100%;
     height: 400px;
+
     border-radius: 20px 20px 0 0;
     border: #253239 solid 2px;
 }
+
 .bd-sub__preview__serv__title{
 
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 32px;
-    font-weight: 700;
     padding: 1.95rem  1.95rem 0 1.95rem;
 }
+
 .bd-sub__preview__serv__text{
 
     font-family: 'Josefin Sans', sans-serif;
     width: 640px;
-    font-size: 24px;
     padding: 1.75rem;
 
 }
+
+/* Conteudo secondário */
 
 .bd-brands{
 
     padding: 5rem 0 5rem 0;
     background-color: #FBF3DF;
-    margin-top: 24px;
+
 }
 
 .bd-brands__title{
     
     font-family: 'Josefin Sans', sans-serif;
     font-size: 48px;
-    font-weight: 900;
     color:#263239;
-    text-align: center;
+
 }
 
 .bd-brands__text{
-    margin-top: 32px;
+
     font-family: 'Josefin Sans', sans-serif;
     font-size: 30px;
     color:#263239;
-    padding: 1rem;
-    width: 1392px;
-    line-height: 56px;
-    text-align: center;
- 
+    width: 100vw;
+
 }
 
 .bd-brands__figures{
-    margin:auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap:80px;
+
     width: 90.25vw;
 }
 
+/* Rodapé */
+
 footer{
 
+    background-color: #253239;
     height: 40vh;
 }
 
 .logo-footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 4rem auto;
+
     width: 20vw;
 }
 
@@ -306,29 +272,26 @@ footer{
 }
 
 .logo-footer__text{
+
     font-family: 'Atma', cursive;
-    font-weight: 900;
-    font-size: 32px;
+
     color: #FFFFFF;
-    text-align: center;
+
 }
 
-.inf-line, .social__list{
-    display: flex;
-    align-items: center;
-}
+
 
 .inf-line{
-    
+
+    background-color: #253239;
     color: #FBF3DF;
+
     border-top: #00000080 4px solid;
-    justify-content: space-between;
+
     padding: 3rem 3rem 1rem 3rem;
 }
+
 .inf-line__text{
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.social__list{
-    gap: 16px;
-}
