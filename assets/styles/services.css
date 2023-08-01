@@ -95,9 +95,7 @@ a{
     color: #253239;
     
 }
-.col:hover{
-    border: 1px solid #253239;
-}
+
 .destaque{
     height: 80vh;
     background-color: #F87608;
