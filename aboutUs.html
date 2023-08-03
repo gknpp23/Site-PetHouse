@@ -2,86 +2,126 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+        
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="./assets/styles/reset.css">
+    
+    <link rel="stylesheet" type="text/css" href="./assets/styles/style.css">
+
+    <link rel="stylesheet" type="text/css" href="./assets/styles/about.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
     <title>Sobre nós</title>
 </head>
 <body>
 
-    <header>
+    <header class="
+    navbar 
+    navbar-expand-lg 
+    header 
+    container-fluid 
+    p-4 
+    d-flex 
+    justify-content-between
+    ">
 
-        <figure>
+        <figure class="navbar-brand logo">
 
-            <a href="./index.html">
-                <img src="" alt="Logotipo PetHouse">
-                <p>PetHouse</p>
+            <a href="./index.html" class="logo__link gap-1 d-flex align-items-center">
+
+                <img src="./assets/images/logo.svg" alt="Logotipo PetHouse" width="80" class="logo__image">
+
+                <p class="logo__text fw-bold fs-4">PetHouse</p>
+                
             </a>
-            
+
         </figure>
 
-        <ul>
-            <li> 
-                <a href="./services.html">Serviços</a>                    
-            </li>
+        <nav class="header__menu">
 
-            <li>
-                <a href="./aboutUs.html">Sobre nós</a>
-            </li>
+            <ul class="menu__list gap-4 p-4 d-flex">
 
-            <li>
-                <a href="./contact.html">Contato</a>
-            </li>
-        </ul>
+                <li class="menu__list__item"> 
+                    <a href="./services.html">Serviços</a>                    
+                </li>
+
+                <li class="menu__list__item">
+                    <a href="./aboutUs.html">Sobre nós</a>
+                </li>
+
+                <li class="menu__list__item"> 
+                    <a href="./contact.html">Contato</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        
 
     </header>
 
     <main>
-        <section>
-            <h1>
+        <section class=" m-hero-ab container-fluid d-flex justify-content-between m-auto">
+            <h1 class="m-hero-ab__title fw-bold m-5 pt-5 align-self-stretch">
                 Conheça a Pet House: A segunda casa do seu pet!
             </h1>
-            <figure>
-                <img src="" alt="Cachoro Yorkshire olhando para a esquerda">
+            <figure class="m-hero-ab__image">
+                <!-- <img src="./assets/images/york.png" alt="Cachoro Yorkshire olhando para a esquerda"> -->
             </figure>
         </section>
 
-        <section>
-            <h2>
+        <section class="container-fluid bd-values my-4 p-5">
+            <h2 class="bd-values__title fs-1 fw-semibold m-auto pb-5">
                 Nossa Essência: Visão, Missão e Valores da Pet House
             </h2>
 
-            <h3>Nossa missão? A felicidade dos pets!</h3>
-            <p>
-                Buscamos oferecer produtos e serviços de qualidade. Queremos ser o pet shop mais incrível da cidade, com atendimento personalizado, venha fazer parte da nossa família pet e garanta uma vida saudável e feliz para seu companheiro peludo!
-            </p>
+            <section class="row m-auto">
 
+                <article class="col">
+                    <h3 class="mission-title fs-3 fw-bold mb-4">Nossa missão? A felicidade dos pets!</h3>
+                    <p class="mission-text fs-5 fw-semibold lh-base">
+                        Buscamos oferecer produtos e serviços de qualidade. Queremos ser o pet shop mais incrível da cidade, com atendimento personalizado, venha fazer parte da nossa família pet e garanta uma vida saudável e feliz para seu companheiro peludo!
+                    </p>
+        
+        
+                    <h3 class="mission-title fs-3 fw-bold mt-5 mb-4">Nossa visão:</h3>
+                    <p class="mission-text fs-5 fw-semibold lh-base">
+                        Se tornar referência local em bem-estar animal. Com um ambiente acolhedor, equipe especializada e produtos de qualidade. Buscamos expandir e ser centro regional, promovendo cuidados e adoção responsável.
+                    </p>
+                </article>
+                          
 
-            <h3>Nossa visão:</h3>
-            <p>
-                Se tornar referência local em bem-estar animal. Com um ambiente acolhedor, equipe especializada e produtos de qualidade. Buscamos expandir e ser centro regional, promovendo cuidados e adoção responsável.
-            </p>
+                <article class="col values">
+                    <h3 class="values-title fs-3 fw-bold mb-4">Valores</h3>
+                    <p class="values-text fs-5 fw-semibold lh-base">
+                        Nosso pet shop é movido pela paixão e amor pelos animais. Buscamos sempre oferecer o melhor para nossos clientes e seus fiéis companheiros de estimação. Com princípios sólidos, priorizamos o bem-estar dos pets e criamos um ambiente acolhedor para todos. Junte-se a nós nessa missão de cuidado e dedicação aos animais!
+                    </p>
 
-            <h3>Valores</h3>
-            <p>
-                Nosso pet shop é movido pela paixão e amor pelos animais. Buscamos sempre oferecer o melhor para nossos clientes e seus fiéis companheiros de estimação. Com princípios sólidos, priorizamos o bem-estar dos pets e criamos um ambiente acolhedor para todos. Junte-se a nós nessa missão de cuidado e dedicação aos animais!
-            </p>
+                    <ol class="list list-group-numbered fs-5 mt-4">
+                        <li class="list-group-item mb-5">
+                            Amor e respeito pelos animais
+                        </li>
 
-            <ol>
-                <li>
-                    Amor e respeito pelos animais
-                </li>
+                        <li class="list-group-item mb-5">
+                            Atendimento expecional
+                        </li>
 
-                <li>
-                    Atendimento expecional
-                </li>
+                        <li class="list-group-item mb-5">
+                            Aprendizado contínuo e inovação
+                        </li>
 
-                <li>
-                    Aprendizado contínuo e inovação
-                </li>
+                        <li class="list-group-item">
+                            Responsabilidade social e ambiental 
+                        </li>
+                    </ol>
+                </article>
+            </section>
 
-                <li>
-                    Responsabilidade social e ambiental 
-                </li>
-            </ol>
+            
         </section>
         
         <section>
@@ -106,36 +146,69 @@
     </main>
 
     <footer>
-        <section>
-            <figure>
-                <img src="" alt="">
+
+        <section class="logo-footer container-fluid mx-auto my-5 d-flex flex-column align-items-center">
+
+            <figure class="logo">
+
+                <img src="./assets/images/logo.svg" alt="Logo petHouse" class="logo__image">
+
             </figure>
-            <p>PetHouse</p>
+
+            <p class="logo-footer__text fw-bold fs-2">PetHouse</p>
+
+        </section>
+        <section class="inf-line container-fluid d-flex align-items-center justify-content-between">
+
+            <h3 class="inf-line__text">© Pet House. 2023 We love our users!</h3>
+
+            <article class="social">
+
+                <ul class="social__list d-flex align-items-center gap-3">
+
+                    <li class="social__list__item">
+
+                        <a href="https://www.instagram.com/opethousee/" class="social__list__item__link">
+
+                            <img src="./assets/images/ICON-3.svg" alt="Instagram" class="social__list__item__icon">
+
+                        </a>
+                        
+                    </li>
+
+                    <li class="social__list__item">
+
+                        <a href="https://www.facebook.com/dolittlepethouse/" class="social__list__item__link">
+
+                            <img src="./assets/images/ICON-1.svg" alt="Facebook" class="social__list__item__icon">
+                        </a>
+                        
+                    </li>
+
+                    <li class="social__list__item">
+
+                        <a href="https://api.whatsapp.com/message/AAB6G4BRVOVSL1?autoload=1&app_absent=0" class="social__list__item__link">
+
+                            <img src="./assets/images/ICON-4.svg" alt="WhatsApp" class="social__list__item__icon">
+
+                        </a>
+                        
+                    </li>
+
+                    <li class="social__list__item">
+
+                        <a href="" class="social__list__item__link">
+                            <img src="./assets/images/ICON-2.svg" alt="Gmail" class="social__list__item__icon">
+                        </a>
+                        
+                    </li>
+
+                </ul>
+
+            </article>
+
         </section>
 
-        <section>
-            <h3>© Pet House. 2023 We love our users!</h3>
-            <article>
-                <ul>
-                    <li>
-                        <a href="">Instagram</a>
-                        <img src="" alt="">
-                    </li>
-                    <li>
-                        <a href="">Facebook</a>
-                        <img src="" alt="">
-                    </li>
-                    <li>
-                        <a href="">WhatsApp</a>
-                        <img src="" alt="">
-                    </li>
-                    <li>
-                        <a href="">Gmail</a>
-                        <img src="" alt="">
-                    </li>
-                </ul>
-            </article>
-        </section>
     </footer>
 </body>
 </html>

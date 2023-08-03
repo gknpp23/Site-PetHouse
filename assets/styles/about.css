@@ -1,0 +1,43 @@
+.m-hero-ab{
+    height: 100vh;
+    background: linear-gradient( #F87608,#FAD046);
+}
+
+.m-hero-ab__image{
+    width: 50rem;
+    height: 100vh;
+    background-image: url("/assets/images/york.png");
+    background-size:cover;
+
+}
+
+.m-hero-ab__title{
+
+    font-family: 'Josefin Sans', sans-serif;
+    width: 48vw;
+    font-size: 64px;
+}
+
+.bd-values{
+    color: #FBF3DF;
+    height: 115vh;
+    background-color: #f87608e6;
+    
+}
+.bd-values__title{
+    font-family: 'Josefin Sans', sans-serif;
+    width: 42vw;
+    
+}
+
+.mission-title, .mission-text, .values-title, .values-text, .list li{
+    font-family: 'Josefin Sans', sans-serif;
+   
+}
+.mission-text, .values-text{
+    width: 32vw;
+}
+
+.values p{
+    width: 90%;
+}
