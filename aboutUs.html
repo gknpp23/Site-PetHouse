@@ -14,6 +14,10 @@
     <link rel="stylesheet" type="text/css" href="./assets/styles/about.css">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atma:wght@700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     
     <title>Sobre nós</title>
 </head>
@@ -64,7 +68,7 @@
 
     </header>
 
-    <main>
+    <section>
         <section class=" m-hero-ab container-fluid d-flex justify-content-between m-auto">
             <h1 class="m-hero-ab__title fw-bold m-5 pt-5 align-self-stretch">
                 Conheça a Pet House: A segunda casa do seu pet!
@@ -95,22 +99,22 @@
                 </article>
                           
 
-                <article class="col values">
+                <article class="col values ms-5">
                     <h3 class="values-title fs-3 fw-bold mb-4">Valores</h3>
                     <p class="values-text fs-5 fw-semibold lh-base">
                         Nosso pet shop é movido pela paixão e amor pelos animais. Buscamos sempre oferecer o melhor para nossos clientes e seus fiéis companheiros de estimação. Com princípios sólidos, priorizamos o bem-estar dos pets e criamos um ambiente acolhedor para todos. Junte-se a nós nessa missão de cuidado e dedicação aos animais!
                     </p>
 
-                    <ol class="list list-group-numbered fs-5 mt-4">
-                        <li class="list-group-item mb-5">
+                    <ol class="list list-group-numbered fs-5 mt-4 fw-semibold lh-base">
+                        <li class="list-group-item mb-4">
                             Amor e respeito pelos animais
                         </li>
 
-                        <li class="list-group-item mb-5">
+                        <li class="list-group-item mb-4">
                             Atendimento expecional
                         </li>
 
-                        <li class="list-group-item mb-5">
+                        <li class="list-group-item mb-4">
                             Aprendizado contínuo e inovação
                         </li>
 
@@ -119,30 +123,44 @@
                         </li>
                     </ol>
                 </article>
+
             </section>
 
             
         </section>
         
-        <section>
-            <h2>Visite a Pet House e Encante-se!</h2>
-            <h3>
+        <section class="bd-visit p-5">
+            <h2 class="visit__title fs-1 my-5 text-center fw-bold">Visite a Pet House e Encante-se!</h2>
+            <h3 class="visit__sub-title fs-3 my-5 text-center lh-lg">
                 Venha nos visitar e descubra o encanto da Pet House: o lugar onde seu pet encontra conforto, diversão e cuidado excepcionais.
             </h3>
 
-            <p>Endereço</p>
+            <section class="visit__addr row mx-auto p-5">
+                <article class="col">
 
-            <address>
-                Rua Izabel Silva, n° 10, 
-                Barbacena-MG
-                Tel.: (32)998231801 
-                WhatsApp.: (32)998231801 
-                Segunda a Sexta das 9 as 18h
-                Sábado: de 09 as 12h.
-                <a href="">Google maps</a>
-            </address>
-            
+                    <p class="addr-title fs-4  fw-bold my-5">Endereço</p>
+
+                    <address class="addr-text fs-5 lh-lg ">
+
+                        
+                        Rua Izabel Silva, n° 10,<br>
+                        Barbacena-MG<br>
+                        Tel.: (32)998231801<br>
+                        WhatsApp.: (32)998231801<br>
+                        Segunda a Sexta das 9 as 18h<br>
+                        Sábado: de 09 as 12h.<br>
+                        
+                
+                    </address>
+                </article>
+
+                <article class="col addr-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.398756589831!2d-43.785403425496376!3d-21.216030580480574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa220704f5a28ef%3A0x1d7530465c3b9f30!2sR.%20Isabel%20Silva%2C%2010%20-%20S%C3%A3o%20Jorge%2C%20Barbacena%20-%20MG%2C%2036202-068!5e0!3m2!1spt-BR!2sbr!4v1691179722410!5m2!1spt-BR!2sbr" width="700" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </article>
+            </section>
+
         </section>
+
     </main>
 
     <footer>

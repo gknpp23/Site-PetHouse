@@ -1,3 +1,16 @@
+:root{
+    --main-color: #F87608;
+    --secondary-color: #FFD54F;
+    --tertiary-color: #253239;
+    --main-font-color: #FBF3DF;
+
+    --main-font: font-family: 'Atma', cursive;
+    --secondary-font: font-family: 'Josefin Sans', sans-serif;
+
+    --main-gradient: linear-gradient( #FAD046,#F87608);
+}
+
+
 @import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap');
 
 

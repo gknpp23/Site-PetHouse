@@ -26,7 +26,7 @@
 }
 .bd-values__title{
     font-family: 'Josefin Sans', sans-serif;
-    width: 42vw;
+    width: 52vw;
     
 }
 
@@ -35,9 +35,25 @@
    
 }
 .mission-text, .values-text{
-    width: 32vw;
+    width: 40vw;
 }
 
 .values p{
     width: 90%;
+}
+
+.bd-visit{
+    background-color: #FBF3DF;
+    height: 150vh;
+}
+
+.col .title-addr, .col address{
+    width: 30vw;
+}
+
+
+.visit__title, .visit__sub-title,.addr-title, .addr-text pre{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #253239;
+
 }
