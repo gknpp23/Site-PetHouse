@@ -1,0 +1,54 @@
+.signup{
+   
+    background-color: #FFD54F;
+    height: 175vh;
+}
+.signup h1{
+    font-size: 56px;
+    font-family: 'Atma', cursive;
+    color: #253239;
+}
+
+.signup p{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #253239;
+    width: 90%;
+}
+
+.figure-cat0{
+    
+    height: 100vh;
+    width: 50vw;
+    /* background-image: url("/assets/images/gatinho.svg");
+    background-size:auto; */
+}
+
+.figure-cat0 img{
+    height: 80%;
+    width: 100%;
+    
+    
+}
+
+.form{
+    width: 50vw;
+    height: 70vh;
+    background-color: #253239;
+}
+
+.form h2{
+    color: #F87608;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.btn-send{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #FFF;
+    background-color: #F87608;
+    width: 07rem;
+
+    --bs-btn-hover-bg: #F87608;
+  
+}
+  

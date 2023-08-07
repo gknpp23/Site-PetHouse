@@ -2,88 +2,192 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+        
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="./assets/styles/reset.css">
+    
+    <link rel="stylesheet" type="text/css" href="./assets/styles/style.css">
+
+    <link rel="stylesheet" type="text/css" href="./assets/styles/contact.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atma:wght@700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
     <title>Fale com a gente!</title>
 </head>
 <body>
-    <header>
+    <header class="
+    navbar 
+    navbar-expand-lg 
+    header 
+    container-fluid 
+    p-4 
+    d-flex 
+    justify-content-between
+    ">
 
-        <figure>
+        <figure class="navbar-brand logo">
 
-            <a href="./index.html">
-                <img src="" alt="Logotipo PetHouse">
-                <p>PetHouse</p>
+            <a href="./index.html" class="logo__link gap-1 d-flex align-items-center">
+
+                <img src="./assets/images/logo.svg" alt="Logotipo PetHouse" width="80" class="logo__image">
+
+                <p class="logo__text fw-bold fs-4">PetHouse</p>
+                
             </a>
-            
+
         </figure>
 
-        <ul>
-            <li> 
-                <a href="./services.html">Serviços</a>                    
-            </li>
+        <nav class="header__menu">
 
-            <li>
-                <a href="./aboutUs.html">Sobre nós</a>
-            </li>
+            <ul class="menu__list gap-4 p-4 d-flex">
 
-            <li>
-                <a href="./contact.html">Contato</a>
-            </li>
-        </ul>
+                <li class="menu__list__item"> 
+                    <a href="./services.html">Serviços</a>                    
+                </li>
+
+                <li class="menu__list__item">
+                    <a href="./aboutUs.html">Sobre nós</a>
+                </li>
+
+                <li class="menu__list__item"> 
+                    <a href="./contact.html">Contato</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        
 
     </header>
 
-    <main>
-        <h1>Entre em contato com a PetHouse!</h1>
-        <p>
+    <main class="signup container-fluid p-5">
+        <h1 class="display-5 fw-bold my-5 text-center">Entre em contato com a PetHouse!</h1>
+        <p class="fs-2 fw-bold text-center m-auto lh-lg">
             Estamos prontos para ouvir você! Entre em contato para agendar serviços, tirar dúvidas ou compartilhar histórias do seu pet. Na Pet House, seu pet é nossa prioridade
         </p>
-        <figure>
-            <img src="" alt="Figura de um gatinho deitado de barriga pra cima">
-        </figure>
-        <section>
-            <h2>Fale Conosco</h2>
-            <form action="">
-                <input type="text">
-                <input type="email">
-                <input type="text">
-                <button>Enviar</button>
-            </form>
+
+        <section class="d-flex m-5 p-5">
+            <figure class="figure-cat0">
+                <img src="./assets/images/gatinho.svg" alt="Figura de um gatinho deitado de barriga pra cima">
+            </figure>
+    
+            <section class="form p-5 rounded-4">
+                <h2 class=" fs-2 fw-bold text-center mb-5">Fale Conosco</h2>
+
+                <!-- <form action=""> -->
+                    <!-- <label for="inputName" class="visually-hidden">Nome</label> -->
+                    <!-- <input type="text" class="form-control" id="inputName" placeholder="Nome">
+
+                    <input type="email" class="form-control" placeholder="E-mail">
+                    <input type="text" class="form-control" placeholder="Mensagem"> 
+                    <button>Enviar</button> -->
+
+                    <form class="row g-4 mt-4">
+                        <div class="col-md-5">
+                          <!-- <label for="validationDefault01" class="form-label visually-hidden">First name</label> -->
+                          <input type="text" class="form-control" id="validationDefault01"  placeholder="Nome" required>
+                        </div>
+                        <div class="col-md-5">
+                          <!-- <label for="validationDefault02" class="form-label">Last name</label> -->
+                          <input type="text" class="form-control" id="validationDefault02"  placeholder="Sobrenome"required>
+                        </div>
+                        
+                        <div class="col-md-11 mt-4">
+                            <!-- <label for="validationDefault03" class="form-label">City</label> -->
+                            <input type="email" class="form-control" placeholder="E-mail" id="validationDefault03" required>
+                            
+                        </div>
+
+                        <div class="col-md-11 mt-4">
+                            <!-- <label for="validationDefault03" class="form-label">City</label> -->
+                            <input type="text" class="form-control"  placeholder="Mensagem" id="validationDefault03" required>
+                        </div>
+                        
+                        
+                        <div class="col-12 mt-4">
+                          <button class="btn btn-send p-2"  type="submit">Enviar</button>
+                        </div>
+                      </form>
+
+                    
+                <!-- </form> -->
+            </section>
         </section>
+        
         
     </main>
     
     <footer>
-        <section>
-            <figure>
-                <img src="" alt="">
+
+        <section class="logo-footer container-fluid mx-auto my-5 d-flex flex-column align-items-center">
+
+            <figure class="logo">
+
+                <img src="./assets/images/logo.svg" alt="Logo petHouse" class="logo__image">
+
             </figure>
-            <p>PetHouse</p>
+
+            <p class="logo-footer__text fw-bold fs-2">PetHouse</p>
+
+        </section>
+        <section class="inf-line container-fluid d-flex align-items-center justify-content-between">
+
+            <h3 class="inf-line__text">© Pet House. 2023 We love our users!</h3>
+
+            <article class="social">
+
+                <ul class="social__list d-flex align-items-center gap-3">
+
+                    <li class="social__list__item">
+
+                        <a href="https://www.instagram.com/opethousee/" class="social__list__item__link">
+
+                            <img src="./assets/images/ICON-3.svg" alt="Instagram" class="social__list__item__icon">
+
+                        </a>
+                        
+                    </li>
+
+                    <li class="social__list__item">
+
+                        <a href="https://www.facebook.com/dolittlepethouse/" class="social__list__item__link">
+
+                            <img src="./assets/images/ICON-1.svg" alt="Facebook" class="social__list__item__icon">
+                        </a>
+                        
+                    </li>
+
+                    <li class="social__list__item">
+
+                        <a href="https://api.whatsapp.com/message/AAB6G4BRVOVSL1?autoload=1&app_absent=0" class="social__list__item__link">
+
+                            <img src="./assets/images/ICON-4.svg" alt="WhatsApp" class="social__list__item__icon">
+
+                        </a>
+                        
+                    </li>
+
+                    <li class="social__list__item">
+
+                        <a href="" class="social__list__item__link">
+                            <img src="./assets/images/ICON-2.svg" alt="Gmail" class="social__list__item__icon">
+                        </a>
+                        
+                    </li>
+
+                </ul>
+
+            </article>
+
         </section>
 
-        <section>
-            <h3>© Pet House. 2023 We love our users!</h3>
-            <article>
-                <ul>
-                    <li>
-                        <a href="">Instagram</a>
-                        <img src="" alt="">
-                    </li>
-                    <li>
-                        <a href="">Facebook</a>
-                        <img src="" alt="">
-                    </li>
-                    <li>
-                        <a href="">WhatsApp</a>
-                        <img src="" alt="">
-                    </li>
-                    <li>
-                        <a href="">Gmail</a>
-                        <img src="" alt="">
-                    </li>
-                </ul>
-            </article>
-        </section>
     </footer>
 </body>
 </html>

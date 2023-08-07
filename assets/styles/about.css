@@ -52,7 +52,7 @@
 }
 
 
-.visit__title, .visit__sub-title,.addr-title, .addr-text pre{
+.visit__title, .visit__sub-title,.addr-title, .addr-text{
     font-family: 'Josefin Sans', sans-serif;
     color: #253239;
 
