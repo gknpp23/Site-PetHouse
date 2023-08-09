@@ -2,136 +2,229 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+        
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="./assets/styles/reset.css">
+    
+    <link rel="stylesheet" type="text/css" href="./assets/styles/style.css">
+
+    <link rel="stylesheet" type="text/css" href="./assets/styles/gallery.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atma:wght@700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
     <title>Galeria PetHouse</title>
 </head>
 <body>
-    <header>
+    <header class="
+    
+    header 
+    container-fluid 
+    p-4 
+    d-flex 
+    justify-content-between
+    ">
 
-        <figure>
+        <figure class="logo">
 
-            <a href="./index.html">
-                <img src="" alt="Logotipo PetHouse">
-                <p>PetHouse</p>
+            <a href="./index.html" class="logo__link gap-1 d-flex align-items-center">
+
+                <img src="./assets/images/logo.svg" alt="Logotipo PetHouse" width="80" class="logo__image">
+
+                <p class="logo__text fw-bold fs-4">PetHouse</p>
+                
             </a>
-            
+
         </figure>
 
-        <ul>
-            <li> 
-                <a href="./services.html">Serviços</a>                    
-            </li>
+        
 
-            <li>
-                <a href="./aboutUs.html">Sobre nós</a>
-            </li>
+        <nav class=" navbar navbar-expand-lg 
+         header__menu">
+            <div class="container-fluid">
 
-            <li>
-                <a href="./contact.html">Contato</a>
-            </li>
-        </ul>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-bar menu__list gap-4 p-4 d-flex">
+
+                        <li class="menu__list__item nav-item"> 
+                            <a href="./services.html nav-link">Serviços</a>                    
+                        </li>
+        
+                        <li class="menu__list__item nav-item">
+                            <a href="./aboutUs.html">Sobre nós</a>
+                        </li>
+        
+                        <li class="menu__list__item"> 
+                            <a href="./contact.html">Contato</a>
+                        </li>
+                    </ul>
+        
+                </div>
+            </div>
+        </nav>
+
+        
 
     </header>
 
-    <main>
-        <h1>Capturando Momentos de Fofura: Galeria Pet House</h1>
-        <p>
+    <main class="gallery container-fluid">
+
+        <h1 class="display-5 fw-semibold pt-5 mx-auto lh-base">Capturando Momentos de Fofura: Galeria Pet House</h1>
+        <p class="fs-2 fw-semibold gallery-text p-5 mx-auto lh-base">
             Aww! Preparado para se encantar com tanta fofura? Confira nossa galeria de pets e deixe-se apaixonar por essas adoráveis criaturinhas!
         </p>
-        <section>
-           <article>
-                <figure>
-                    <img src="" alt="Mel">
-                </figure>
-                <h3>Mel</h3>
-                <p>
-                    A Shitzu de personalidade encantadora. Com seus olhos expressivos e pelagem fofa, Ela conquista a todos com seu jeitinho meigo e brincalhão. 
-                </p>
-           </article>
 
-           <article>
-                <figure>
-                    <img src="" alt="Amora">
-                </figure>
-                <h3>Amora</h3>
-                <p>
-                    Uma Spitz encantadora de personalidade vibrante. Sua pelagem exuberante e olhos brilhantes a tornam irresistível. Energética e amorosa, ela traz alegria para todos ao seu redor. 
-                </p>
-           </article>
+        <section class="container">
 
-           <article>
-                <figure>
-                    <img src="" alt="Snoopy">
-                </figure>
-                <h3>Snoopy</h3>
-                <p>
-                    O Shitzu mais encantador do pedaço! Com sua pelagem fofa e olhar doce, ele conquista corações por onde passa. Um companheiro leal e divertido, pronto para espalhar alegria e lambidas carinhosas.
-                </p>
-           </article>
+            <div class="row g-5 mb-3">
+                <article class="col p-3 d-flex flex-column gap-2 me-3">
+                    <figure class="img-01">
+                        <!-- <img src="" alt="Mel"> -->
+                    </figure>
+                    <h3 class="fs-4 fw-bold my-3 ps-5">Mel</h3>
+                    <p class="lh-base mx-auto px-5">
+                        A Shitzu de personalidade encantadora. Com seus olhos expressivos e pelagem fofa, Ela conquista a todos com seu jeitinho meigo e brincalhão. 
+                    </p>
+               </article>
+    
+               <article class="col p-3">
+                    <figure class="img-02">
+                        <!-- <img src="" alt="Amora"> -->
+                    </figure>
+                    <h3 class="fs-4 fw-bold my-3 ps-5">Amora</h3>
+                    <p class="lh-base mx-auto px-5">
+                        Uma Spitz encantadora de personalidade vibrante. Sua pelagem exuberante e olhos brilhantes a tornam irresistível. Energética e amorosa, ela traz alegria para todos ao seu redor. 
+                    </p>
+               </article>
+    
+            </div>
 
-           <article>
-                <figure>
-                    <img src="" alt="Lady">
-                </figure>
-                <h3>Lady</h3>
-                <p>
-                    Conheça Lady, a encantadora Yorkshire cheia de graça e personalidade. Com seus olhos brilhantes e pelagem impecável, ela é a perfeita combinação de doçura e vivacidade.
-                </p>
-           </article>
+            <div class="row g-5 mb-3">
+                <article class="col me-3 p-3">
+                    <figure class="img-03">
+                        <!-- <img src="" alt="Snoopy"> -->
+                    </figure>
+                    <h3 class="fs-4 fw-bold my-3 ps-5">Snoopy</h3>
+                    <p class="lh-base mx-auto px-5">
+                        O Shitzu mais encantador do pedaço! Com sua pelagem fofa e olhar doce, ele conquista corações por onde passa. Um companheiro leal e divertido, pronto para espalhar alegria e lambidas carinhosas.
+                    </p>
+               </article>
+    
+               <article class="col p-3">
+                    <figure class="img-04">
+                        <!-- <img src="" alt="Lady"> -->
+                    </figure>
+                    <h3 class="fs-4 fw-bold my-3 ps-5">Lady</h3>
+                    <p class="mx-auto px-5"> 
+                        Conheça Lady, a encantadora Yorkshire cheia de graça e personalidade. Com seus olhos brilhantes e pelagem impecável, ela é a perfeita combinação de doçura e vivacidade.
+                    </p>
+               </article>
+            </div>
 
-           <article>
-                <figure>
-                    <img src="" alt="Mike">
-                </figure>
-                <h3>Mike</h3>
-                <p>
-                    Conheça Mike, o Yorkshire repleto de charme e energia! Com seu porte pequeno e pelagem luxuosa, ele conquista corações por onde passa. Mike é cheio de personalidade e adora brincar
-                </p>
-           </article>
+            <div class="row g-5">
+                <article class="col me-3 p-3">
+                    <figure class="img-05">
+                        <!-- <img src="" alt="Mike"> -->
+                    </figure>
+                    <h3 class="fs-4 fw-bold my-3 ps-5">Mike</h3>
+                    <p class="mx-auto px-5">
+                        Conheça Mike, o Yorkshire repleto de charme e energia! Com seu porte pequeno e pelagem luxuosa, ele conquista corações por onde passa. Mike é cheio de personalidade e adora brincar
+                    </p>
+               </article>
+    
+               <article class="col p-3">
+                    <figure class="img-06">
+                        <!-- <img src="" alt="Mel"> -->
+                    </figure>
+                    <h3 class="fs-4 fw-bold my-3 ps-5">Mel</h3>
+                    <p class="mx-auto px-5">
+                        Encante-se com Mel, a adorável Pug cheia de personalidade! Com seu rostinho enrugado e olhar cativante, ela vai conquistar seu coração com seu charme irresistível. 
+                    </p>
+               </article>
+            </div>
+           
+           
 
-           <article>
-                <figure>
-                    <img src="" alt="Mel">
-                </figure>
-                <h3>Mel</h3>
-                <p>
-                    Encante-se com Mel, a adorável Pug cheia de personalidade! Com seu rostinho enrugado e olhar cativante, ela vai conquistar seu coração com seu charme irresistível. 
-                </p>
-           </article>
+           
         </section>
     </main>
 
-    <footer>
-        <section>
-            <figure>
-                <img src="" alt="">
+    <footer >
+
+        <section class="logo-footer container-fluid mx-auto my-5 d-flex flex-column align-items-center">
+
+            <figure class="logo">
+
+                <img src="./assets/images/logo.svg" alt="Logo petHouse" class="logo__image">
+
             </figure>
-            <p>PetHouse</p>
+
+            <p class="logo-footer__text fw-bold fs-2">PetHouse</p>
+
         </section>
 
-        <section>
-            <h3>© Pet House. 2023 We love our users!</h3>
-            <article>
-                <ul>
-                    <li>
-                        <a href="">Instagram</a>
-                        <img src="" alt="">
+        <section class="inf-line container-fluid d-flex flex-column flex-lg-row align-items-center justify-content-between">
+
+            <h3 class="inf-line__text mb-5 mb-lg-0">© Pet House. 2023 We love our users!</h3>
+
+            <article class="social">
+
+                <ul class="social__list d-flex align-items-center gap-3">
+
+                    <li class="social__list__item">
+
+                        <a href="https://www.instagram.com/opethousee/" class="social__list__item__link">
+
+                            <img src="./assets/images/ICON-3.svg" alt="Instagram" class="social__list__item__icon">
+
+                        </a>
+                        
                     </li>
-                    <li>
-                        <a href="">Facebook</a>
-                        <img src="" alt="">
+
+                    <li class="social__list__item">
+
+                        <a href="https://www.facebook.com/dolittlepethouse/" class="social__list__item__link">
+
+                            <img src="./assets/images/ICON-1.svg" alt="Facebook" class="social__list__item__icon">
+                        </a>
+                        
                     </li>
-                    <li>
-                        <a href="">WhatsApp</a>
-                        <img src="" alt="">
+
+                    <li class="social__list__item">
+
+                        <a href="https://api.whatsapp.com/message/AAB6G4BRVOVSL1?autoload=1&app_absent=0" class="social__list__item__link">
+
+                            <img src="./assets/images/ICON-4.svg" alt="WhatsApp" class="social__list__item__icon">
+
+                        </a>
+                        
                     </li>
-                    <li>
-                        <a href="">Gmail</a>
-                        <img src="" alt="">
+
+                    <li class="social__list__item">
+
+                        <a href="" class="social__list__item__link">
+                            <img src="./assets/images/ICON-2.svg" alt="Gmail" class="social__list__item__icon">
+                        </a>
+                        
                     </li>
+
                 </ul>
+
             </article>
+
         </section>
+
     </footer>
 </body>
 </html>

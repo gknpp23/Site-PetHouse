@@ -1,0 +1,66 @@
+.gallery{
+    background-color: #F87608; 
+    height: 340vh;
+}
+
+.gallery h1{
+    font-family: 'Atma', cursive;
+    width: 60%;
+}
+
+.gallery p{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.gallery-text{
+    width: 90%;
+}
+
+.row article{
+    background-color: #FBF3DF;
+    width: 4rem;
+    height: 35rem;
+
+}
+
+.row article h3{
+    color: #F87608 ;
+    font-family: 'Atma', cursive;
+}
+
+.img-01, .img-02, .img-03, .img-04, .img-05, .img-06{
+
+    height: 70%;
+    width: 100%;
+    
+
+}
+
+.img-01{
+    background-image: url("/assets/images/mel-shitzu.png");
+    background-size: cover;
+}
+.img-02{
+    background-image: url("/assets/images/amora-spitz.png");
+    background-size: cover;
+}
+
+.img-03{
+    background-image: url("/assets/images/snoopy-shitzu.png");
+    background-size: cover;
+}
+
+.img-04{
+    background-image: url("/assets/images/leide-york.png");
+    background-size: cover;
+}
+
+.img-05{
+    background-image: url("/assets/images/mike-york.png");
+    background-size: cover;
+}
+
+.img-06{
+    background-image: url("/assets/images/mel-pug.png");
+    background-size: cover;
+}
