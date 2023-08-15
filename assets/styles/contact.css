@@ -52,3 +52,33 @@
   
 }
   
+
+@media screen and (max-width:976px){
+    .logo__text{
+        display: none;
+    }
+    .figure-cat0 {
+        display: none;
+        
+    }
+    /* .figure-cat0{
+        height: 35vw;
+        width: 43vw;
+        position: absolute;
+        top: 120%;
+        left: 25%;
+        background-image: url("/assets/images/cat-02.svg");
+        background-size: cover;
+    } */
+    .signup{
+        height: 225vh;
+    }
+    .form{
+        width: 180vw;
+        height: 100vh;
+        background-color: #253239;
+    }
+    .signup p{
+        margin-bottom: 10rem;
+    }
+}

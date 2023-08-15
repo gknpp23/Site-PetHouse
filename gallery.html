@@ -22,74 +22,68 @@
 
     <title>Galeria PetHouse</title>
 </head>
+
 <body>
     <header class="
-    
     header 
     container-fluid 
     p-4 
-    d-flex 
-    justify-content-between
     ">
 
-        <figure class="logo">
-
-            <a href="./index.html" class="logo__link gap-1 d-flex align-items-center">
-
-                <img src="./assets/images/logo.svg" alt="Logotipo PetHouse" width="80" class="logo__image">
-
-                <p class="logo__text fw-bold fs-4">PetHouse</p>
-                
-            </a>
-
-        </figure>
-
-        
-
-        <nav class=" navbar navbar-expand-lg 
-         header__menu">
+        <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <a href="./index.html" class="navbar-brand logo__link gap-1 d-flex align-items-center">
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-bar menu__list gap-4 p-4 d-flex">
+                    <img src="./assets/images/logo.svg" alt="Logotipo PetHouse" width="80" class="logo__image">
+    
+                    <p class="logo__text fw-bold fs-4">PetHouse</p>
+                    
+                </a>
 
-                        <li class="menu__list__item nav-item"> 
-                            <a href="./services.html nav-link">Serviços</a>                    
+              <button class="btn-nav navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" style="border-color: #F87608 ; background-color: #F87608; ">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu__list gap-4 p-4 d-flex">
+                    
+
+                        <li class="nav-item menu__list__item"> 
+                            <a href="./services.html">Serviços</a>                    
                         </li>
-        
-                        <li class="menu__list__item nav-item">
+
+                        <li class="nav-item menu__list__item">
                             <a href="./aboutUs.html">Sobre nós</a>
                         </li>
-        
-                        <li class="menu__list__item"> 
+
+                        <li class="nav-item menu__list__item"> 
                             <a href="./contact.html">Contato</a>
                         </li>
                     </ul>
-        
                 </div>
-            </div>
+           
+              </div>
+            
         </nav>
-
         
 
     </header>
 
+
     <main class="gallery container-fluid">
 
-        <h1 class="display-5 fw-semibold pt-5 mx-auto lh-base">Capturando Momentos de Fofura: Galeria Pet House</h1>
-        <p class="fs-2 fw-semibold gallery-text p-5 mx-auto lh-base">
+        <h1 class="display-5 display-sm-3 fw-semibold pt-5 mx-auto lh-base">Capturando Momentos de Fofura: Galeria Pet House</h1>
+        <p class="fs-2 fs-md-1 fw-semibold gallery-text p-5 mx-auto lh-base">
             Aww! Preparado para se encantar com tanta fofura? Confira nossa galeria de pets e deixe-se apaixonar por essas adoráveis criaturinhas!
         </p>
 
-        <section class="container">
+        <section class="container container-sm">
 
-            <div class="row g-5 mb-3">
-                <article class="col p-3 d-flex flex-column gap-2 me-3">
-                    <figure class="img-01">
+            <div class="row g-5 mb-md-5">
+
+                <article class="col p-3 d-flex flex-column me-md-3 ">
+                    <figure class="img-fluid img-01">
                         <!-- <img src="" alt="Mel"> -->
                     </figure>
                     <h3 class="fs-4 fw-bold my-3 ps-5">Mel</h3>
@@ -97,9 +91,9 @@
                         A Shitzu de personalidade encantadora. Com seus olhos expressivos e pelagem fofa, Ela conquista a todos com seu jeitinho meigo e brincalhão. 
                     </p>
                </article>
-    
-               <article class="col p-3">
-                    <figure class="img-02">
+
+               <article class="col d-flex flex-column p-3">
+                    <figure class="img-fluid  img-02">
                         <!-- <img src="" alt="Amora"> -->
                     </figure>
                     <h3 class="fs-4 fw-bold my-3 ps-5">Amora</h3>
@@ -110,9 +104,9 @@
     
             </div>
 
-            <div class="row g-5 mb-3">
-                <article class="col me-3 p-3">
-                    <figure class="img-03">
+            <div class="row g-5 mb-md-5">
+                <article class="col d-flex flex-column me-md-3 p-3">
+                    <figure class="img-fluid img-03">
                         <!-- <img src="" alt="Snoopy"> -->
                     </figure>
                     <h3 class="fs-4 fw-bold my-3 ps-5">Snoopy</h3>
@@ -121,8 +115,8 @@
                     </p>
                </article>
     
-               <article class="col p-3">
-                    <figure class="img-04">
+               <article class="col d-flex flex-column p-3">
+                    <figure class="img-fluid img-04">
                         <!-- <img src="" alt="Lady"> -->
                     </figure>
                     <h3 class="fs-4 fw-bold my-3 ps-5">Lady</h3>
@@ -133,8 +127,8 @@
             </div>
 
             <div class="row g-5">
-                <article class="col me-3 p-3">
-                    <figure class="img-05">
+                <article class="col d-flex flex-column me-md-3 p-3">
+                    <figure class="img-fluid img-05">
                         <!-- <img src="" alt="Mike"> -->
                     </figure>
                     <h3 class="fs-4 fw-bold my-3 ps-5">Mike</h3>
@@ -143,8 +137,8 @@
                     </p>
                </article>
     
-               <article class="col p-3">
-                    <figure class="img-06">
+               <article class="col d-flex flex-column p-3">
+                    <figure class="img-fluid img-06">
                         <!-- <img src="" alt="Mel"> -->
                     </figure>
                     <h3 class="fs-4 fw-bold my-3 ps-5">Mel</h3>
