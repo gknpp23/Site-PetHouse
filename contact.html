@@ -23,62 +23,63 @@
 </head>
 <body>
     <header class="
-    navbar 
-    navbar-expand-lg 
     header 
     container-fluid 
     p-4 
-    d-flex 
-    justify-content-between
     ">
 
-        <figure class="navbar-brand logo">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
 
-            <a href="./index.html" class="logo__link gap-1 d-flex align-items-center">
+                <a href="./index.html" class="navbar-brand logo__link gap-1 d-flex align-items-center">
 
-                <img src="./assets/images/logo.svg" alt="Logotipo PetHouse" width="80" class="logo__image">
+                    <img src="./assets/images/logo.svg" alt="Logotipo PetHouse" width="80" class="logo__image">
+    
+                    <p class="logo__text fw-bold fs-4">PetHouse</p>
+                    
+                </a>
 
-                <p class="logo__text fw-bold fs-4">PetHouse</p>
-                
-            </a>
+              <button class="btn-nav navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" style="border-color: #F87608 ; background-color: #F87608; ">
+                <span class="navbar-toggler-icon"></span>
+              </button>
 
-        </figure>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu__list gap-4 p-4 d-flex">
+                    
 
-        <nav class="header__menu">
+                        <li class="nav-item menu__list__item"> 
+                            <a href="./services.html">Serviços</a>                    
+                        </li>
 
-            <ul class="menu__list gap-4 p-4 d-flex">
+                        <li class="nav-item menu__list__item">
+                            <a href="./aboutUs.html">Sobre nós</a>
+                        </li>
 
-                <li class="menu__list__item"> 
-                    <a href="./services.html">Serviços</a>                    
-                </li>
-
-                <li class="menu__list__item">
-                    <a href="./aboutUs.html">Sobre nós</a>
-                </li>
-
-                <li class="menu__list__item"> 
-                    <a href="./contact.html">Contato</a>
-                </li>
-            </ul>
-
+                        <li class="nav-item menu__list__item"> 
+                            <a href="./contact.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+           
+              </div>
+            
         </nav>
-
         
 
     </header>
 
     <main class="signup container-fluid p-5">
-        <h1 class="display-5 fw-bold my-5 text-center">Entre em contato com a PetHouse!</h1>
-        <p class="fs-2 fw-bold text-center m-auto lh-lg">
+        <h1 class="display-5 fw-bold my-5 mx-auto lh-base">Entre em contato com a PetHouse!</h1>
+        <p class="fs-2 fw-bold mx-auto lh-lg mb-5">
             Estamos prontos para ouvir você! Entre em contato para agendar serviços, tirar dúvidas ou compartilhar histórias do seu pet. Na Pet House, seu pet é nossa prioridade
         </p>
 
-        <section class="d-flex m-5 p-5">
+        <section class="d-flex m-md-5 p-md-5">
             <figure class="figure-cat0">
                 <img src="./assets/images/gatinho.svg" alt="Figura de um gatinho deitado de barriga pra cima">
             </figure>
     
-            <section class="form p-5 rounded-4">
+            <section class="form p-5 rounded-4 mx-auto">
                 <h2 class=" fs-2 fw-bold text-center mb-5">Fale Conosco</h2>
 
                
@@ -116,7 +117,7 @@
         
     </main>
     
-    <footer>
+    <footer >
 
         <section class="logo-footer container-fluid mx-auto my-5 d-flex flex-column align-items-center">
 
@@ -129,9 +130,10 @@
             <p class="logo-footer__text fw-bold fs-2">PetHouse</p>
 
         </section>
-        <section class="inf-line container-fluid d-flex align-items-center justify-content-between">
 
-            <h3 class="inf-line__text">© Pet House. 2023 We love our users!</h3>
+        <section class="inf-line container-fluid d-flex flex-column flex-lg-row align-items-center justify-content-between">
+
+            <h3 class="inf-line__text mb-5 mb-lg-0">© Pet House. 2023 We love our users!</h3>
 
             <article class="social">
 

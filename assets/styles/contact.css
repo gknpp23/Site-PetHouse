@@ -1,26 +1,27 @@
 .signup{
    
     background-color: #FFD54F;
-    height: 175vh;
+    height: 165vh;
 }
 .signup h1{
     font-size: 56px;
     font-family: 'Atma', cursive;
     color: #253239;
+    text-align: center;
 }
 
 .signup p{
     font-family: 'Josefin Sans', sans-serif;
     color: #253239;
     width: 90%;
+    text-align: center;
 }
 
 .figure-cat0{
     
     height: 100vh;
     width: 50vw;
-    /* background-image: url("/assets/images/gatinho.svg");
-    background-size:auto; */
+
 }
 
 .figure-cat0 img{
@@ -46,7 +47,7 @@
     font-family: 'Josefin Sans', sans-serif;
     color: #FFF;
     background-color: #F87608;
-    width: 07rem;
+    width: 7rem;
 
     --bs-btn-hover-bg: #F87608;
   
@@ -54,31 +55,114 @@
   
 
 @media screen and (max-width:976px){
+    .signup h1{
+        font-size: 48px;
+        text-align: left;
+        padding-left: 2rem;
+
+    }
     .logo__text{
         display: none;
     }
-    .figure-cat0 {
+    .figure-cat0 img{
         display: none;
         
     }
-    /* .figure-cat0{
+
+    .figure-cat0{
         height: 35vw;
         width: 43vw;
         position: absolute;
-        top: 120%;
-        left: 25%;
         background-image: url("/assets/images/cat-02.svg");
         background-size: cover;
-    } */
+        z-index: 2;
+        margin-left: 5rem;
+        margin-top:-4rem;
+    }
     .signup{
         height: 225vh;
     }
     .form{
         width: 180vw;
-        height: 100vh;
+        height: 95vh;
         background-color: #253239;
+        z-index: 1;
     }
     .signup p{
         margin-bottom: 10rem;
+        font-size: 24px;
+        padding-bottom: 4rem;
+        text-align: left;
+    }
+    .row{
+        margin-top: 8.75rem;
+    }
+    .form h2{
+        font-size: 40px;
+        margin-top: 1.75rem;
+    }
+    .inp-sobre{
+        display:none;
+    }
+    form input{
+
+        height: 4rem;
+    }
+    .inp-messag input{
+        height: 10rem;
+        
+    }
+    .btn-01{
+       padding: 10% 0 0 0;
+
+    }
+    .btn-send{
+        height: 4rem;
+        width: 12rem;
+        font-size: 20px;
     }
 }
+
+
+@media screen and (min-width:500px) and (max-width:700px){
+    .figure-cat0{
+        height: 35vw;
+        width: 45vw;
+        margin-left: 6rem;
+        margin-top:-5rem;
+    }
+    .form h2{
+        margin-top: 5.25rem;
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:975px){
+    .figure-cat0{
+        height: 25vw;
+        width: 35vw;
+        margin-left: 8rem;
+        margin-top:-7rem;
+    }
+    .form h2{
+        margin-top: 5.25rem;
+    }
+
+    .signup{
+        height: 130vh;
+    }
+    .form{
+
+        height: 60vh;
+
+    }
+
+}
+
+@media screen and (max-width:380px) {
+    .signup{
+        height: 260vh;
+    }
+}
+
+
+
