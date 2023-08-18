@@ -51,9 +51,166 @@
     width: 30vw;
 }
 
-
+.visit__title, .visit__sub-title{
+    text-align: center;
+}
 .visit__title, .visit__sub-title,.addr-title, .addr-text{
     font-family: 'Josefin Sans', sans-serif;
     color: #253239;
 
 }
+.img-mobile{
+    display: none;
+}
+
+@media screen and (max-width:976px){
+
+    .logo__text{
+        display: none;
+    }
+
+    .m-hero-ab{
+        flex-direction: column;
+        padding: 0;
+    }
+    .m-hero-ab__title{
+        font-size: 52px !important;
+        margin: auto;
+        width: 95vw;
+        line-height: 4.75rem;
+        margin: 1rem !important;
+    }
+    .m-hero-ab__image{
+        width: 100%;
+        height: 40%;
+    
+    }
+    .bd-values{
+        height: 240vh;
+        padding: 1rem !important;
+        
+    }
+    .bd-values__title{
+        
+        width: 90vw;
+        padding-top: 1rem;
+        text-align: center;
+        line-height: 2.5rem;
+        
+    }
+    .mission-text, .values-text{
+        width: 85vw;
+        
+    }
+    .values{
+        margin-top: 1rem;
+        margin-left: 0 !important;
+    }
+    .values-title{
+        margin-top: 1rem;
+    }
+    .values p{
+        width: 100%;
+    }
+    .img-mobile{
+        display:block;
+        position: relative;
+        width: 15rem;
+        height: 20rem;
+        background-image: url("/assets/images/family-dog.svg");
+        background-size:cover;
+        margin: auto;
+    }
+    .visit__addr{
+        padding: 0 !important;
+       
+    }
+    .visit__addr col{
+        padding: 0 !important;
+       
+    }
+    .visit__title, .visit__sub-title{
+        text-align: left;
+    }
+    .visit__title{
+        
+        font-size: 3rem !important;
+        line-height: 5rem;
+    }
+    .visit__sub-title{
+        font-size: 1.75rem !important;
+    }
+    .bd-visit{
+        padding: 1rem !important;
+        height: 250vh;
+    }
+    .col .title-addr, .col address{
+        width: 100vw;
+        
+    }
+    .addr-title{
+        text-align: center;
+        font-size: 1.7rem !important;
+    }
+    .addr-text{
+        font-size: 1.5rem !important;
+        margin-bottom: 5rem;
+    }
+    .addr-map{
+        padding: .75rem !important;
+    }
+    .addr-map iframe{
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+
+@media screen and (max-width:430px){
+    .bd-values{
+        height: 200vh;
+        
+    }
+    .bd-visit{
+        
+        height: 250vh;
+    }
+}
+@media screen and (max-width:415px) and (max-height:740px){
+    .bd-values{
+        height: 250vh;
+        
+    }
+    .bd-visit{
+        
+        height: 270vh;
+    }
+}
+
+
+@media screen and (max-width:390px){
+    .bd-values{
+        height: 230vh;
+        
+    }
+    .bd-visit{
+        
+        height: 270vh;
+    }
+}
+
+@media screen and (max-width:380px) and (max-height:760px){
+    .bd-values{
+        height: 290vh;
+        
+    }
+    .bd-visit{
+        
+        height: 300vh;
+    }
+}
+
+
+
+
+

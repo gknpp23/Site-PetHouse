@@ -24,46 +24,47 @@
 <body>
 
     <header class="
-    navbar 
-    navbar-expand-lg 
     header 
     container-fluid 
     p-4 
-    d-flex 
-    justify-content-between
     ">
 
-        <figure class="navbar-brand logo">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
 
-            <a href="./index.html" class="logo__link gap-1 d-flex align-items-center">
+                <a href="./index.html" class="navbar-brand logo__link gap-1 d-flex align-items-center">
 
-                <img src="./assets/images/logo.svg" alt="Logotipo PetHouse" width="80" class="logo__image">
+                    <img src="./assets/images/logo.svg" alt="Logotipo PetHouse" width="80" class="logo__image">
+    
+                    <p class="logo__text fw-bold fs-4">PetHouse</p>
+                    
+                </a>
 
-                <p class="logo__text fw-bold fs-4">PetHouse</p>
-                
-            </a>
+              <button class="btn-nav navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" style="border-color: #F87608 ; background-color: #F87608; ">
+                <span class="navbar-toggler-icon"></span>
+              </button>
 
-        </figure>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu__list gap-4 p-4 d-flex">
+                    
 
-        <nav class="header__menu">
+                        <li class="nav-item menu__list__item"> 
+                            <a href="./services.html">Serviços</a>                    
+                        </li>
 
-            <ul class="menu__list gap-4 p-4 d-flex">
+                        <li class="nav-item menu__list__item">
+                            <a href="./aboutUs.html">Sobre nós</a>
+                        </li>
 
-                <li class="menu__list__item"> 
-                    <a href="./services.html">Serviços</a>                    
-                </li>
-
-                <li class="menu__list__item">
-                    <a href="./aboutUs.html">Sobre nós</a>
-                </li>
-
-                <li class="menu__list__item"> 
-                    <a href="./contact.html">Contato</a>
-                </li>
-            </ul>
-
+                        <li class="nav-item menu__list__item"> 
+                            <a href="./contact.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+           
+              </div>
+            
         </nav>
-
         
 
     </header>
@@ -73,7 +74,7 @@
             <h1 class="m-hero-ab__title fw-bold m-5 pt-5 align-self-stretch">
                 Conheça a Pet House: A segunda casa do seu pet!
             </h1>
-            <figure class="m-hero-ab__image">
+            <figure class="m-hero-ab__image img-fluid">
                 <!-- <img src="./assets/images/york.png" alt="Cachoro Yorkshire olhando para a esquerda"> -->
             </figure>
         </section>
@@ -105,7 +106,7 @@
                         Nosso pet shop é movido pela paixão e amor pelos animais. Buscamos sempre oferecer o melhor para nossos clientes e seus fiéis companheiros de estimação. Com princípios sólidos, priorizamos o bem-estar dos pets e criamos um ambiente acolhedor para todos. Junte-se a nós nessa missão de cuidado e dedicação aos animais!
                     </p>
 
-                    <ol class="list list-group-numbered fs-5 mt-4 fw-semibold lh-base">
+                    <ol class="list list-group-numbered fs-5 my-4 fw-semibold lh-base">
                         <li class="list-group-item mb-4">
                             Amor e respeito pelos animais
                         </li>
@@ -123,15 +124,15 @@
                         </li>
                     </ol>
                 </article>
-
+                <figure class="img-fluid img-mobile"></figure>
             </section>
 
             
         </section>
         
         <section class="bd-visit p-5">
-            <h2 class="visit__title fs-1 my-5 text-center fw-bold">Visite a Pet House e Encante-se!</h2>
-            <h3 class="visit__sub-title fs-3 my-5 text-center lh-lg">
+            <h2 class="visit__title fs-1 my-5 fw-bold">Visite a Pet House e Encante-se!</h2>
+            <h3 class="visit__sub-title fs-3 my-5 lh-lg">
                 Venha nos visitar e descubra o encanto da Pet House: o lugar onde seu pet encontra conforto, diversão e cuidado excepcionais.
             </h3>
 
@@ -163,7 +164,7 @@
 
     </main>
 
-    <footer>
+    <footer >
 
         <section class="logo-footer container-fluid mx-auto my-5 d-flex flex-column align-items-center">
 
@@ -176,9 +177,10 @@
             <p class="logo-footer__text fw-bold fs-2">PetHouse</p>
 
         </section>
-        <section class="inf-line container-fluid d-flex align-items-center justify-content-between">
 
-            <h3 class="inf-line__text">© Pet House. 2023 We love our users!</h3>
+        <section class="inf-line container-fluid d-flex flex-column flex-lg-row align-items-center justify-content-between">
+
+            <h3 class="inf-line__text mb-5 mb-lg-0">© Pet House. 2023 We love our users!</h3>
 
             <article class="social">
 
