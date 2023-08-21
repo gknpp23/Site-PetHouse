@@ -20,46 +20,47 @@
     
     <body>
         <header class="
-        navbar 
-        navbar-expand-lg 
         header 
         container-fluid 
         p-4 
-        d-flex 
-        justify-content-between
         ">
     
-            <figure class="navbar-brand logo">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
     
-                <a href="./index.html" class="logo__link gap-1 d-flex align-items-center">
+                    <a href="./index.html" class="navbar-brand logo__link gap-1 d-flex align-items-center">
     
-                    <img src="./assets/images/logo.svg" alt="Logotipo PetHouse" width="80" class="logo__image">
+                        <img src="./assets/images/logo.svg" alt="Logotipo PetHouse" width="80" class="logo__image">
+        
+                        <p class="logo__text fw-bold fs-4">PetHouse</p>
+                        
+                    </a>
     
-                    <p class="logo__text fw-bold fs-4">PetHouse</p>
-                    
-                </a>
+                  <button class="btn-nav navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" style="border-color: #F87608 ; background-color: #F87608; ">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
     
-            </figure>
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu__list gap-4 p-4 d-flex">
+                        
     
-            <nav class="header__menu">
+                            <li class="nav-item menu__list__item"> 
+                                <a href="./services.html">Serviços</a>                    
+                            </li>
     
-                <ul class="menu__list gap-4 p-4 d-flex">
+                            <li class="nav-item menu__list__item">
+                                <a href="./aboutUs.html">Sobre nós</a>
+                            </li>
     
-                    <li class="menu__list__item"> 
-                        <a href="./services.html">Serviços</a>                    
-                    </li>
-    
-                    <li class="menu__list__item">
-                        <a href="./aboutUs.html">Sobre nós</a>
-                    </li>
-    
-                    <li class="menu__list__item"> 
-                        <a href="./contact.html">Contato</a>
-                    </li>
-                </ul>
-    
+                            <li class="nav-item menu__list__item"> 
+                                <a href="./contact.html">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+               
+                  </div>
+                
             </nav>
-    
             
     
         </header>
@@ -67,9 +68,9 @@
         <main>
             <section class="bd-main primary-content container-fluid p-0 m-0">
 
-                <div class=" primary-text container text-center">
+                <div class="bd-main__text primary-text container text-center">
 
-                    <h1 class="mb-4 m-auto fw-bold lh-sm">
+                    <h1 class="mb-4 m-lg-auto fw-bold lh-sm">
                         Pet House: Serviços Personalizados para o Bem-Estar Total do seu Pet!
                     </h1>
 
@@ -89,12 +90,12 @@
 
                 <article class=" services-list container">
 
-                    <ul class="row">
+                    <ul class="row lista">
                         <li class="col">
                             <figure class="col-1 mx-auto">
                                 <!-- <img src="./assets/images/icon-banho-tosa.svg" alt="icone cortador de unha"> -->
                             </figure>
-                            <h3 class="text-center fw-bold fs-3">Banho & Tosa</h3>
+                            <h3 class="text-center fw-bold fs-3 my-4">Banho & Tosa</h3>
                             <p class="lh-sm">
                                 Mime o seu pet com o nosso serviço especializado. Nossa equipe experiente garantirá que seu amiguinho receba um cuidado delicado, ficando limpo, cheiroso e com uma aparência incrível.
                             </p>
@@ -104,7 +105,7 @@
                             <figure class="col-2">
                                 <!-- <img src="./assets/images/icon-acessorios.svg" alt="icone casinha" > -->
                             </figure>
-                            <h3 class="text-center fw-bold fs-3">Acessórios</h3>
+                            <h3 class="text-center fw-bold fs-3 my-4">Acessórios</h3>
                             <p class="lh-sm">
                                 Encontre os melhores acessórios para o seu pet na Pet House: coleiras, camas e brinquedos de alta qualidade para atender às preferências e necessidades do seu amiguinho peludo.
                             </p>
@@ -114,7 +115,7 @@
                             <figure class="col-3">
                                 <!-- <img src="./assets/images/icon-racoes.svg" alt="icone ração"> -->
                             </figure>
-                            <h3 class="text-center fw-bold fs-3">Rações Premium</h3>
+                            <h3 class="text-center fw-bold fs-3 my-4">Rações Premium</h3>
                             <p class="lh-sm">
                                 Proporcione uma nutrição excepcional para o seu pet com a nossa seleção de rações premium, cuidadosamente escolhidas para promover sua saúde e vitalidade.
                             </p>
@@ -124,8 +125,8 @@
                 </article>
             </section>
 
-            <section class="destaque  mt-4  d-flex gap-4justify-content-between p-5 align-items-stretch">
-                <figure class="figure-cat rounded-4">
+            <section class="destaque  mt-4  d-flex gap-4 justify-content-between p-5 align-items-stretch">
+                <figure class="figure-cat fig-MB rounded-4">
                     <!-- <img src="/assets/images/foto-yuumy.png" alt="foto Yummy" class="rounded-4"> -->
                 </figure>
                 <h2 class="destaque-title fs-1 lh-lg mx-auto">
@@ -134,7 +135,7 @@
             </section>
         </main>
 
-        <footer>
+        <footer >
 
             <section class="logo-footer container-fluid mx-auto my-5 d-flex flex-column align-items-center">
     
@@ -147,9 +148,10 @@
                 <p class="logo-footer__text fw-bold fs-2">PetHouse</p>
     
             </section>
-            <section class="inf-line container-fluid d-flex align-items-center justify-content-between">
     
-                <h3 class="inf-line__text">© Pet House. 2023 We love our users!</h3>
+            <section class="inf-line container-fluid d-flex flex-column flex-lg-row align-items-center justify-content-between">
+    
+                <h3 class="inf-line__text mb-5 mb-lg-0">© Pet House. 2023 We love our users!</h3>
     
                 <article class="social">
     
