@@ -133,6 +133,9 @@ a{
     }
 }
 @media screen and (max-width:976px){
+    .logo__text{
+        display: none;
+    }
 
     .figure,
     .figure-cat{
