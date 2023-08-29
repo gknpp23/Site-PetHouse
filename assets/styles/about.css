@@ -3,42 +3,41 @@
     background: linear-gradient( #F87608,#FAD046);
 }
 
-.m-hero-ab__image{
-    width: 50rem;
-    height: 100vh;
-    background-image: url("/assets/images/york.png");
-    background-size:cover;
-
-}
-
 .m-hero-ab__title{
 
     font-family: 'Josefin Sans', sans-serif;
     width: 48vw;
     font-size: 64px;
 }
+.m-hero-ab__image{
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url("/assets/images/york.png");
+    background-size:cover; */
 
-.bd-values{
+}
+
+.bd-ab{
     color: #FBF3DF;
     height: 115vh;
     background-color: #f87608e6;
     
 }
-.bd-values__title{
+.bd-ab__title{
     font-family: 'Josefin Sans', sans-serif;
     width: 52vw;
     
 }
 
-.mission-title, .mission-text, .values-title, .values-text, .list li{
+.bd-ab__mission__title, .bd-ab__mission__text, .bd-ab__values__title, .bd-ab__values__text, .bd-ab__vision__title,.bd-ab__vision__text, .list li{
     font-family: 'Josefin Sans', sans-serif;
    
 }
-.mission-text, .values-text{
+.bd-ab__mission__text, .bd-ab__values__text{
     width: 40vw;
 }
 
-.values p{
+.bd-ab__values p{
     width: 90%;
 }
 
@@ -47,19 +46,19 @@
     height: 150vh;
 }
 
-.col .title-addr, .col address{
+.col .bd-visit__addr__title .col address{
     width: 30vw;
 }
 
-.visit__title, .visit__sub-title{
+.bd-visit__title,.bd-visit__sub-title{
     text-align: center;
 }
-.visit__title, .visit__sub-title,.addr-title, .addr-text{
+.bd-visit__title, .bd-visit__sub-title, .bd-visit__addr__title, .bd-visit__addr__text {
     font-family: 'Josefin Sans', sans-serif;
     color: #253239;
 
 }
-.img-mobile{
+.bd-ab__values__image-mobile{
     display: none;
 }
 
@@ -81,16 +80,17 @@
         margin: 1rem !important;
     }
     .m-hero-ab__image{
-        width: 100%;
+        max-width: 100%;
         height: 40%;
     
     }
-    .bd-values{
+    .bd-ab{
         height: 240vh;
         padding: 1rem !important;
         
     }
-    .bd-values__title{
+
+    .bd-ab__title {
         
         width: 90vw;
         padding-top: 1rem;
@@ -98,21 +98,22 @@
         line-height: 2.5rem;
         
     }
-    .mission-text, .values-text{
+    .bd-ab__mission__text, .bd-ab__values__text{
         width: 85vw;
         
     }
-    .values{
+    .bd-ab__values{
         margin-top: 1rem;
         margin-left: 0 !important;
     }
-    .values-title{
+    .bd-ab__values__title{
         margin-top: 1rem;
     }
-    .values p{
+    .bd-ab__values__text{
         width: 100%;
     }
-    .img-mobile{
+
+    .bd-ab__values__image-mobile{
         display:block;
         position: relative;
         width: 15rem;
@@ -121,45 +122,54 @@
         background-size:cover;
         margin: auto;
     }
-    .visit__addr{
-        padding: 0 !important;
-       
-    }
-    .visit__addr col{
-        padding: 0 !important;
-       
-    }
-    .visit__title, .visit__sub-title{
-        text-align: left;
-    }
-    .visit__title{
-        
-        font-size: 3rem !important;
-        line-height: 5rem;
-    }
-    .visit__sub-title{
-        font-size: 1.75rem !important;
-    }
+
+   
     .bd-visit{
         padding: 1rem !important;
         height: 250vh;
     }
-    .col .title-addr, .col address{
+    .bd-visit__addr col{
+        padding: 0 !important;
+       
+    }
+    .bd-visit__title , .bd-visit__sub-title{
+        text-align: left;
+    }
+
+    .bd-visit__title{
+        
+        font-size: 3rem !important;
+        line-height: 5rem;
+    }
+
+    .bd-visit__sub-title
+    {
+        font-size: 1.75rem !important;
+    }
+
+    .bd-visit__addr{
+        padding: 0 !important;
+       
+    }
+    
+    .col .bd-visit__addr__text {
         width: 100vw;
         
     }
-    .addr-title{
+
+    .bd-visit__addr__title{
         text-align: center;
         font-size: 1.7rem !important;
     }
-    .addr-text{
+    .bd-visit__addr__text{
         font-size: 1.5rem !important;
         margin-bottom: 5rem;
     }
-    .addr-map{
+
+    .bd-visit__addr__map{
         padding: .75rem !important;
     }
-    .addr-map iframe{
+    .bd-visit__addr__map iframe{
         width: 100%;
         height: 100vh;
     }
