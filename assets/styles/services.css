@@ -114,19 +114,7 @@ body{
     font-family: 'Josefin Sans', sans-serif;
 }
 
-/* @media screen and (min-width:815px) and (max-width:850px){
-    .bd-main{
-        height: 45vh;
-    }
-    .services {
-        height: 135vh;
-    }
-    .fig-MB{
 
-        margin: auto;
-
-    }
-} */
 @media screen and (max-width:976px){
     .logo__text{
         display: none;
@@ -138,21 +126,22 @@ body{
     }
 
     .sub-pg__figure--mobile{
+        
         display: block;
         box-shadow: none;
 
-        max-width: 100%;
-        max-height: 400px;
+        max-width: 150vw;
+        max-height: min-content;
         margin: 0 auto !important;
         
 
         background-image: url("/assets/images/figure-dog-MB.svg");
-        background-size: auto;
+        background-size: 100% 100%;
         background-repeat: no-repeat;
     }
 
     .hero-main{
-        height: 70vh;
+        min-height: 70vh;
         
     }
     .hero-main__text{
@@ -165,12 +154,10 @@ body{
         padding: 1rem;
         
     }
-    /* .services {
-        height: 195vh;
-    } */
+   
     .bd-services {
-        min-height: 210vh;
-        max-height: 500vh;
+        min-height: 115rem;
+        max-height: 125rem;
     }
     .bd-services__lista {
         display: flex !important;
@@ -182,7 +169,7 @@ body{
         justify-content: center !important;
         gap:1px !important;
         padding: 3rem !important;
-        min-height: 500px;
+        min-height: 55rem;
     }
 
     .sub-pg__title{
@@ -194,57 +181,9 @@ body{
 
     }
 
-    
 
 }
 
-/* @media screen and (max-width:400px){
-    .bd-main{
-        height: 85vh;
-    }
-    .bd-main h1{
-        font-size: 2.75rem;
-        text-align: left;
-        padding: .75rem;
-        
-    }
-    
-    .destaque{
-        height: 115vh;
-        gap:0px;
-        justify-content: stretch !important;
-    }
-    .destaque-title{
-        height: auto;
-        
-
-
-    }
-    .fig-MB{
-
-        width: 17rem;
-        height: 27rem;
-
-    }
-} */
-
-/* @media screen and (max-width:400px) and (max-height:600px){ */
-    /* .services {
-        height: 275vh;
-    }
-}
-@media screen and (max-width:412px) and (max-height:740px){
-    .bd-main{
-        height: 95vh;
-    }
-    .services {
-        height: 250vh;
-    }
-    .destaque{
-        height: 130vh;
-
-    }
-} */
 
 
 
