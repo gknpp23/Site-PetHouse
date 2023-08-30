@@ -55,6 +55,7 @@
 }
   
 
+
 @media screen and (max-width:976px){
 
     .logo__text{
@@ -64,7 +65,8 @@
 
     .m-signup{
 
-        height: 225vh;
+        min-height: 100rem;
+        max-height: 180rem;
     }
 
     .m-signup__title{
@@ -104,7 +106,7 @@
     .form{
 
         width: 180vw;
-        height: 95vh;
+        min-height: 42rem;
         background-color: #253239;
         z-index: 1;
     }
@@ -135,15 +137,25 @@
     }
 }
 
+@media screen and (min-width:810px) and (max-width:980px){
 
-@media screen and (min-width:500px) and (max-width:700px){
+    .m-signup__figure{
+        margin-top:-16vh;
+    }
+
+    .form__title{
+
+        margin-top: 6.5rem;
+    }
+}
+@media screen and (min-width:500px) and (max-width:800px){
 
     .m-signup__figure{
 
         height: 35vw;
         width: 45vw;
         margin-left: 6rem;
-        margin-top:-5rem;
+        margin-top:-11vh;
     }
 
     .form__title{
@@ -151,42 +163,11 @@
         margin-top: 5.25rem;
     }
 }
-
-@media screen and (min-width:700px) and (max-width:975px){
-
-    .m-signup__figure{
-
-        height: 25vw;
-        width: 35vw;
-        margin-left: 8rem;
-        margin-top:-7rem;
-    }
-
-    .form__title{
-
-        margin-top: 5.25rem;
-    }
-
+@media screen and (max-width:400px){
     .m-signup{
 
-        height: 130vh;
-    }
-
-    .form{
-
-        height: 60vh;
-
-    }
-
-}
-
-@media screen and (max-width:380px) {
-
-    .m-signup{
+        min-height: 115rem;
         
-        height: 260vh;
     }
 }
-
-
 
