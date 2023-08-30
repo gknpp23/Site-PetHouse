@@ -12,8 +12,8 @@
 .m-hero-ab__image{
     width: 100vw;
     height: 100vh;
-    /* background-image: url("/assets/images/york.png");
-    background-size:cover; */
+    background-image: url("/assets/images/york.png");
+    background-size:cover;
 
 }
 
@@ -72,6 +72,7 @@
         flex-direction: column;
         padding: 0;
     }
+
     .m-hero-ab__title{
         font-size: 52px !important;
         margin: auto;
@@ -79,13 +80,15 @@
         line-height: 4.75rem;
         margin: 1rem !important;
     }
+
     .m-hero-ab__image{
         max-width: 100%;
         height: 40%;
     
     }
     .bd-ab{
-        height: 240vh;
+        min-height: 125rem;
+        max-height: 127rem;
         padding: 1rem !important;
         
     }
@@ -103,6 +106,8 @@
         
     }
     .bd-ab__values{
+
+        /* width: 100%; */
         margin-top: 1rem;
         margin-left: 0 !important;
     }
@@ -114,19 +119,21 @@
     }
 
     .bd-ab__values__image-mobile{
+        padding: 0;
         display:block;
-        position: relative;
-        width: 15rem;
-        height: 20rem;
+        /* position: relative; */
+        min-width: 24rem;
+        min-height: 25rem;
         background-image: url("/assets/images/family-dog.svg");
-        background-size:cover;
-        margin: auto;
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+        margin: 0;
     }
 
    
     .bd-visit{
         padding: 1rem !important;
-        height: 250vh;
+        min-height: 135rem;
     }
     .bd-visit__addr col{
         padding: 0 !important;
@@ -175,50 +182,21 @@
     }
 }
 
+@media screen and (min-width:500px) and (max-width:970px){
 
-@media screen and (max-width:430px){
-    .bd-values{
-        height: 200vh;
+    .bd-ab{
+        min-height: 100rem;
         
     }
     .bd-visit{
-        
-        height: 250vh;
+        min-height: 120rem;
     }
-}
-@media screen and (max-width:415px) and (max-height:740px){
-    .bd-values{
-        height: 250vh;
-        
-    }
-    .bd-visit{
-        
-        height: 270vh;
+    .bd-visit__addr__text{
+        margin-left: 30%;
     }
 }
 
 
-@media screen and (max-width:390px){
-    .bd-values{
-        height: 230vh;
-        
-    }
-    .bd-visit{
-        
-        height: 270vh;
-    }
-}
-
-@media screen and (max-width:380px) and (max-height:760px){
-    .bd-values{
-        height: 290vh;
-        
-    }
-    .bd-visit{
-        
-        height: 300vh;
-    }
-}
 
 
 
