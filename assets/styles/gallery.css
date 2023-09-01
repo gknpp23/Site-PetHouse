@@ -78,25 +78,34 @@
     }
     .gallery{
         
-        height: 490vh;
+        min-height: 270rem;
+        max-height: 300rem;
     }
+    .gallery h1{
+        min-width: 90%;
+    }
+    .gallery-text{
+        min-width: 100%;
+    }
+
     .row article{
         
-        width: 90%;
+        min-width: 90%;
         height: 35rem;
     
     }
 
     .img-01, .img-02, .img-03, .img-04, .img-05, .img-06{
 
-        height: 50%;
+        height: 70%;
         width: 100%;
-        
-    
+            
     }
+
     .row{
         margin: auto;
     }
+
     .img-02{
         background-image: url("/assets/images/amora-spitz_MB.png");
         background-size: cover;
@@ -104,7 +113,7 @@
     }
 }
 
-@media screen and (max-width:576px) and (max-height:950px){
+/* @media screen and (max-width:576px) and (max-height:950px){
 
     .gallery{
         
@@ -153,4 +162,4 @@
         
         height: 230vh;
     }
-}
+} */
