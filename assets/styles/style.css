@@ -4,7 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 
-
 /* Seguir Metologia BEM */
 
 body{
@@ -330,29 +329,18 @@ footer{
     
     .m-hero__figure{
         
-        height: 100vh;
-        /* flex:1; */
+        min-height: 40rem;
+        min-width: 100vw;
+        background-image: url('/assets/images/cachorro-principal.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+
+
 
         
     }
-    
     .m-hero__figure__image{
-        
-        position: relative;
-        top: auto;
-        right:auto;
-        
-
-        margin-left: 1rem;
-        
-        min-width: 100vw;
-        max-width: 400vw;
-
-        min-width: 35vh;
-        max-height: 75vh;
-
-        margin-bottom: -27.45rem;
-      
+        display: none;
     }
 
     .sub-pg-hero{
@@ -400,6 +388,7 @@ footer{
     .bd-content__sub-service__list{
     
         list-style-image:none;
+
         display: flex;
         flex-direction: column;
         align-items: start;
@@ -470,17 +459,20 @@ footer{
     .bd-sub__preview {
         min-width: 70%;
         max-width: 100%;
+
         display: grid !important;
-        gap: 0px !important;
+        gap: 2rem !important;
         grid-template-columns: repeat(2,100%) !important;
         grid-auto-flow: column !important;
+
         overflow: auto hidden !important;
     }
     
     .bd-sub__preview__serv{
-    
-        width: 90vw;
-        height: 70vh;
+        
+        margin: 0 auto;
+        max-width: 100%;
+        max-height: 85vh;
     
         background-color: #253235;
         color: #FBF3DF;
@@ -490,7 +482,7 @@ footer{
     .bd-sub__preview__image{
     
         max-width: 100%;
-        height: 30vh;
+        max-height: 300px;
     
         border-radius: 20px 20px 0 0;
         border: #253239 solid 2px;
@@ -519,6 +511,7 @@ footer{
     .bd-brands__title{
         
         font-size: 48px;
+        margin: 1rem 0;
     
     }
     
@@ -527,25 +520,40 @@ footer{
 
         font-size: 1.25rem;
 
-        width: 100%;
+        max-width: 100%;
         line-height: 1.95rem;
     
     }
     
     .bd-brands__figures{
 
-        width: 100%;
+        max-width: 100%;
+
         display: grid !important;
         justify-content: stretch !important;
-        gap: 0px !important;
+        gap: 0 !important;
         grid-template-columns: repeat(6,1fr) !important;
         grid-auto-flow: column !important;
         column-gap: 2rem !important;
+
         overflow: auto hidden !important;
 
         margin: 5rem auto 3rem !important;
+        border-radius: 10rem;
+        background-color: #f8740877;
         
+        
+    }
+    .bd-brands__figure{
+        background-color: #fbf3df91 ;
+        border-radius: 3rem;
+        padding: .2rem;
+    }
+
+    .bd-brands__figure:first-child{
+        padding: 1rem;
     }
     
 
 } 
+
