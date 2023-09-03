@@ -99,6 +99,7 @@
 
         height: 70%;
         width: 100%;
+        background-size: cover;
             
     }
 
@@ -106,60 +107,32 @@
         margin: auto;
     }
 
+    .img-01{
+        background-image: url("/assets/images/Mel-MB.png");
+        
+    }
     .img-02{
         background-image: url("/assets/images/amora-spitz_MB.png");
-        background-size: cover;
+        
         
     }
-}
+    .img-03{
+        background-image: url("/assets/images/Snoppy-MB.png");
 
-/* @media screen and (max-width:576px) and (max-height:950px){
-
-    .gallery{
-        
-        height: 590vh;
     }
+    .img-04{
+        background-image: url("/assets/images/leide-MB.png");
+        
+    }
+
+    .img-05{
+        background-image: url("/assets/images/mike-york-MB.png");
+        
+    }
+    .img-06{
+        background-image: url("/assets/images/mel-pug-MB.png");
+        
+    }
+
     
 }
-
-@media screen and (max-width:576px) and (min-height:800px){
-
-    .gallery{
-        
-        height: 470vh;
-    }
-    
-}
-
-@media screen and (max-width:400px){
-    .gallery{
-        
-        height: 520vh;
-    }
-}
-
-@media screen and (max-width:380px) and (max-height:900px){
-    .gallery{
-        
-        height: 550vh;
-    }
-}
-
-@media screen and (max-width:380px) and (max-height:800px){
-    .gallery{
-        
-        height: 580vh;
-    }
-}
-@media screen and (max-width:380px) and (max-height:700px){
-    .gallery{
-        
-        height: 670vh;
-    }
-}
-@media screen and (min-height:1080px){
-    .gallery{
-        
-        height: 230vh;
-    }
-} */
