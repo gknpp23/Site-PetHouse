@@ -420,10 +420,11 @@ footer{
         width: 100%;
         padding: 1rem;
         
+        
     }
 
     .bd-content__figure__image{
-        margin-left: 30%;
+        margin-left: 5rem;
         min-height: 20vh;
         max-height: 65vh;
     }
