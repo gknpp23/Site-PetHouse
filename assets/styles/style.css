@@ -558,3 +558,12 @@ footer{
 
 } 
 
+@media screen and (max-width:405px){
+
+    .m-hero__figure{
+        
+        background-size: 100% 80%;
+        
+    }
+
+}
