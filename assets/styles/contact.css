@@ -163,10 +163,26 @@
         margin-top: 5.25rem;
     }
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:405px){
     .m-signup{
 
-        min-height: 115rem;
+        min-height: 100rem;
+        max-height: 120rem;
+        
+    }
+    .m-signup__title{
+
+        font-size: 32px;
+        text-align: left;
+        padding-left: 1rem;
+
+    }
+    .m-signup__text{
+
+        margin-bottom: 6rem !important;
+        font-size: 20px !important;
+        text-align: none;
+        padding-bottom: 1rem;
         
     }
 }
