@@ -141,7 +141,8 @@ body{
     }
 
     .hero-main{
-        min-height: 70vh;
+        min-height: 75vh;
+        max-height: 100vh;
         
     }
     .hero-main__text{
@@ -164,12 +165,17 @@ body{
         flex-direction: column ;  
         gap: 5rem;  
     }
+
     .sub-pg{
         flex-direction: column !important;
-        justify-content: center !important;
+        justify-content: space-evenly !important;
         gap:1px !important;
         padding: 3rem !important;
         min-height: 55rem;
+    }
+    .sub-pg__figure{
+        height: 20rem;
+        width: 100%;
     }
 
     .sub-pg__title{
@@ -182,6 +188,32 @@ body{
     }
 
 
+}
+
+@media screen and (max-width:400px){
+    .bd-services {
+        min-height: 130rem;
+        
+    }
+    .sub-pg{
+        /* justify-content: space-evenly !important; */
+        padding: 1rem !important;
+        min-height: 50rem;
+        margin: 0px !important;
+    }
+    /* .sub-pg__figure{
+        height: 20rem;
+        width: 100%;
+    } */
+    .sub-pg__figure--mobile{
+        
+
+        max-width: 150vw;
+        max-height: 50rem;
+     
+
+ 
+    }
 }
 
 
