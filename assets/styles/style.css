@@ -565,5 +565,8 @@ footer{
         background-size: 100% 80%;
         
     }
+    .bd-sub__preview__serv {
+        max-height: 95vh;
+    }
 
 }
