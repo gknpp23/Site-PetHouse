@@ -1,3 +1,4 @@
 # Site PetHouse
 
-<img align="center" src="temp.gif" width="1000">
+<p align="center"><img src="temp.gif" width="800"></p>
+
