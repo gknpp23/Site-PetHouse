@@ -62,7 +62,7 @@ The **Pethouse** project was more than just a website; it was a personal journey
 
 Check out the **live demo** of the Pethouse website here: [Pethouse Demo](https://pethouse-demo.netlify.app/)
 
-![Pethouse Website Preview](https://github.com/user-attachments/assets/pethouse-preview.png)
+![Pethouse Website Preview](https://github.com/gknpp23/UX-Designer-Training-DIO/blob/main/Desktop%20-%201.jpg)
 
 ---
 
